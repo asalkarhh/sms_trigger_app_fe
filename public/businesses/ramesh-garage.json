@@ -1,0 +1,52 @@
+{
+  "slug": "ramesh-garage",
+  "businessName": "Ramesh Auto Garage",
+  "ownerName": "Ramesh Patil",
+  "category": "Auto Repair",
+  "tagline": "Trusted car & bike service since 2008",
+  "description": "Full vehicle service, repairs, denting, painting, and 24x7 breakdown assistance for cars and bikes.",
+
+  "phone": "+919812345678",
+  "whatsapp": "+919812345678",
+  "email": "rameshgarage@gmail.com",
+
+  "address": "Plot 45, Kothrud Industrial Area, Pune - 411038",
+  "mapLink": "https://maps.google.com/?q=Ramesh+Auto+Garage+Kothrud+Pune",
+
+  "hours": {
+    "mon": "8:00 AM - 8:00 PM",
+    "tue": "8:00 AM - 8:00 PM",
+    "wed": "8:00 AM - 8:00 PM",
+    "thu": "8:00 AM - 8:00 PM",
+    "fri": "8:00 AM - 8:00 PM",
+    "sat": "8:00 AM - 8:00 PM",
+    "sun": "10:00 AM - 4:00 PM"
+  },
+
+  "services": ["General Service", "Engine Repair", "Denting & Painting", "AC Service", "24x7 Breakdown"],
+
+  "social": {
+    "website": "",
+    "instagram": "https://instagram.com/rameshgarage",
+    "facebook": "https://facebook.com/rameshgarage",
+    "youtube": ""
+  },
+
+  "payment": {
+    "upiId": "ramesh@okicici",
+    "showPayButton": true
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/1E40AF/white?text=Ramesh",
+    "banner": "https://placehold.co/800x400/1E40AF/white?text=Ramesh+Garage",
+    "gallery": [
+      "https://placehold.co/600x600/1E40AF/white?text=Garage+1",
+      "https://placehold.co/600x600/2563EB/white?text=Garage+2"
+    ]
+  },
+
+  "theme": {
+    "accentColor": "#1E40AF"
+  }
+}

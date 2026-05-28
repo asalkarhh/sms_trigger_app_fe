@@ -1,0 +1,53 @@
+{
+  "slug": "business-slug",
+  "businessName": "Business Name",
+  "ownerName": "Owner Name",
+  "category": "Category",
+  "tagline": "Short one-line tagline",
+  "description": "A short paragraph describing the business, its services, and what makes it special.",
+
+  "phone": "+919999999999",
+  "whatsapp": "+919999999999",
+  "email": "business@example.com",
+
+  "address": "Full street address, City - PIN, State",
+  "mapLink": "https://maps.google.com/?q=Business+Name+City",
+
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": ["Service 1", "Service 2", "Service 3"],
+
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "payment": {
+    "upiId": "yourupi@bank",
+    "showPayButton": true
+  },
+
+  "images": {
+    "logo": "/images/business-slug/logo.jpg",
+    "banner": "/images/business-slug/banner.jpg",
+    "gallery": [
+      "/images/business-slug/gallery-1.jpg",
+      "/images/business-slug/gallery-2.jpg",
+      "/images/business-slug/gallery-3.jpg"
+    ]
+  },
+
+  "theme": {
+    "accentColor": "#0F172A"
+  }
+}

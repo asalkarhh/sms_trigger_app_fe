@@ -1,0 +1,48 @@
+import { Phone, MessageCircle, Navigation } from 'lucide-react'
+import { telLink, whatsappLink } from '../utils/links.js'
+
+// Thumb-friendly fixed bar shown only on small screens.
+export default function MobileActionBar({ business }) {
+  const { phone, whatsapp, mapLink } = business
+
+  return (
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-100 bg-white/90 backdrop-blur-xl sm:hidden">
+      <div
+        className="grid gap-2 px-4 pb-[max(0.6rem,env(safe-area-inset-bottom))] pt-2.5"
+        style={{ gridTemplateColumns: `repeat(${[phone, whatsapp, mapLink].filter(Boolean).length}, minmax(0,1fr))` }}
+      >
+        {phone && (
+          <a
+            href={telLink(phone)}
+            className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-accent text-sm font-semibold text-white active:scale-95"
+          >
+            <Phone className="h-4 w-4" strokeWidth={2.2} />
+            Call
+          </a>
+        )}
+        {whatsapp && (
+          <a
+            href={whatsappLink(whatsapp)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-accent/10 text-sm font-semibold text-accent active:scale-95"
+          >
+            <MessageCircle className="h-4 w-4" strokeWidth={2.2} />
+            Chat
+          </a>
+        )}
+        {mapLink && (
+          <a
+            href={mapLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-slate-100 text-sm font-semibold text-slate-700 active:scale-95"
+          >
+            <Navigation className="h-4 w-4" strokeWidth={2.2} />
+            Map
+          </a>
+        )}
+      </div>
+    </div>
+  )
+}
