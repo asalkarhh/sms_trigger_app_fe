@@ -12,13 +12,25 @@ export default function AddressBlock({ business }) {
   return (
     <div className="flex h-full flex-col overflow-hidden rounded-4xl border border-slate-100 bg-white shadow-soft">
       {mapEmbed && (
-        <iframe
-          title="Map"
-          src={mapEmbed}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="h-44 w-full border-0 grayscale-[0.2]"
-        />
+        <div className="relative h-44 w-full">
+          {/* This invisible link overlays the top-left corner of the map,
+              intercepting clicks on the "Maps" button and redirecting to the
+              correct `mapLink` instead of the iframe's generated address link. */}
+          <a
+            href={mapLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open in Google Maps"
+            className="absolute left-0 top-0 z-10 h-16 w-48"
+          />
+          <iframe
+            title="Map"
+            src={mapEmbed}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="h-full w-full border-0 grayscale-[0.2]"
+          />
+        </div>
       )}
 
       <div className="flex flex-1 flex-col p-6 sm:p-8">
