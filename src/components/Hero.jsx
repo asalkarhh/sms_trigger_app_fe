@@ -1,10 +1,26 @@
-import { Phone, MessageCircle, Navigation, UserPlus, BadgeCheck } from 'lucide-react'
+import { Phone, Navigation, UserPlus, BadgeCheck } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
 import { downloadVCard } from '../utils/vcard.js'
+import WhatsAppIcon from './WhatsAppIcon.jsx'
+
+function getDefaultBanner(category) {
+  const cat = (category || '').toLowerCase()
+  if (cat.includes('salon') || cat.includes('hair') || cat.includes('barber') || cat.includes('beauty')) {
+    return 'https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1600&auto=format&fit=crop'
+  }
+  if (cat.includes('garage') || cat.includes('auto') || cat.includes('car')) {
+    return 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?q=80&w=1600&auto=format&fit=crop'
+  }
+  if (cat.includes('bakery') || cat.includes('cake') || cat.includes('food')) {
+    return 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1600&auto=format&fit=crop'
+  }
+  // Clean, tech/business online landing page background
+  return 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop'
+}
 
 export default function Hero({ business }) {
   const { businessName, category, tagline, phone, whatsapp, mapLink, images } = business
-  const banner = images?.banner
+  const banner = images?.banner || getDefaultBanner(category)
   const logo = images?.logo
 
   return (
@@ -84,7 +100,7 @@ export default function Hero({ business }) {
                 rel="noopener noreferrer"
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-white px-8 text-base font-semibold text-slate-900 shadow-xl transition hover:bg-slate-50 active:scale-95"
               >
-                <MessageCircle className="h-5 w-5" strokeWidth={2.5} />
+                <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
                 WhatsApp
               </a>
             )}

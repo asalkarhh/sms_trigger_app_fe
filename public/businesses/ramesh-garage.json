@@ -39,7 +39,7 @@
 
   "images": {
     "logo": "https://placehold.co/240x240/1E40AF/white?text=Ramesh",
-    "banner": "https://placehold.co/800x400/1E40AF/white?text=Ramesh+Garage",
+    "banner": "",
     "gallery": [
       "https://placehold.co/600x600/1E40AF/white?text=Garage+1",
       "https://placehold.co/600x600/2563EB/white?text=Garage+2"

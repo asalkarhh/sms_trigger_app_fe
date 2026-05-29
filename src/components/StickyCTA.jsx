@@ -1,5 +1,6 @@
-import { Phone, MessageCircle } from 'lucide-react'
+import { Phone } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
+import WhatsAppIcon from './WhatsAppIcon.jsx'
 
 export default function StickyCTA({ business }) {
   const { phone, whatsapp } = business
@@ -27,7 +28,7 @@ export default function StickyCTA({ business }) {
             rel="noopener noreferrer"
             className="flex flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] py-3.5 text-sm font-bold tracking-wide text-white shadow-lg shadow-[#25D366]/30 transition hover:bg-[#20bd5a] active:scale-95"
           >
-            <MessageCircle className="h-[18px] w-[18px]" />
+            <WhatsAppIcon className="h-5 w-5" />
             WhatsApp
           </a>
         )}

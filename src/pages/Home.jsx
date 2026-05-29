@@ -4,6 +4,18 @@ import { MessageSquareText, ArrowUpRight, Sparkles } from 'lucide-react'
 
 const DEMOS = [
   {
+    slug: 'asalkar-healthy-hub',
+    name: 'Asalkar Healthy Hub',
+    category: 'Organic Oil Manufacturer',
+    accent: '#16a34a',
+  },
+  {
+    slug: 'sudarshan-gas-repair',
+    name: 'Sudarshan Gas Repair Center',
+    category: 'Appliance Repair',
+    accent: '#ea580c',
+  },
+  {
     slug: 'sharma-salon',
     name: 'Sharma Hair Salon',
     category: 'Salon',
@@ -42,7 +54,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mx-auto mt-14 grid max-w-3xl gap-5 sm:grid-cols-2">
+          <div className="mx-auto mt-14 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {DEMOS.map((demo) => (
               <Link
                 key={demo.slug}
@@ -74,9 +86,9 @@ export default function Home() {
           </div>
 
           <p className="mt-16 text-center text-xs text-white/40">
-            Powered by Smart SMS — Asalkar Techworks Pvt Ltd ·{' '}
+            Powered by Smart SMS —  ·{' '}
             <a href="https://www.asalkar.in" className="text-white/60 hover:underline">
-              www.asalkar.in
+              Asalkar Techworks Pvt Ltd
             </a>
           </p>
         </div>

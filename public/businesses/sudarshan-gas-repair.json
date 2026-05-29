@@ -1,0 +1,42 @@
+{
+  "slug": "sudarshan-gas-repair",
+  "businessName": "Sudarshan Gas Repair Center",
+  "ownerName": "Santosh Asalkar",
+  "category": "Appliance Repair",
+  "tagline": "Expert repair for Gas, Cookers, and Mixers",
+  "description": "We specialize in the repair and maintenance of gas stoves (shegadi), pressure cookers, and mixer grinders. Fast, reliable service right at your doorstep with home delivery available!",
+
+  "phone": "+919657030250",
+  "whatsapp": "+919657030250",
+  "email": "",
+
+  "address": "Gharkul, Karad - Atpadi Rd, Vivekanand Nagar, Bhavaninagar, Vita, Maharashtra 415311",
+  "mapLink": "https://google.com/maps/place/vasalkar+healthy+hub/data=!4m2!3m1!1s0x3bc167e565ac7d87:0x768106dc65bafd63?sa=X&ved=1t:242&ictx=111",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Gas Stove (Shegadi) Repair",
+    "Pressure Cooker Repair",
+    "Mixer Grinder Repair",
+    "Home Delivery Available"
+  ],
+
+  "images": {
+    "logo": "https://placehold.co/240x240/ea580c/white?text=SG",
+    "banner": "https://images.openai.com/static-rsc-4/_HevTAY46GxkDwzG7RWfQWk_Sug4AkIEEG2gCi7v70xQi89WUaGD3alhURfKLtq85KE6stS_zfCydjBH64SxeNslj5TQpC1m11CYKFmoOi-K1mvu3WDmgN1K5oEvMN1jO_rsxgdd47O5ibcN8NW4ibekL2j7bkyuVV67uZ68kFM?purpose=inline",
+    "owner": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#ea580c"
+  }
+}

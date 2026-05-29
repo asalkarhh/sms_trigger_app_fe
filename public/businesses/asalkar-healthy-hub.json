@@ -1,0 +1,50 @@
+{
+  "slug": "asalkar-healthy-hub",
+  "businessName": "Asalkar Healthy Hub",
+  "ownerName": "Rajkumar Asalkar",
+  "category": "Organic Oil Manufacturer",
+  "tagline": "100% Organic Cold Pressed Oils",
+  "description": "Manufacturer of fully organic, chemical-free cold pressed Coconut, Groundnut, Sunflower, and Safflower oils. We deliver pure health and wellness right from Vita city.",
+
+  "phone": "+918421429515",
+  "whatsapp": "+918421429515",
+  "email": "",
+
+  "address": "Gharkul, Karad - Atpadi Rd, Vivekanand Nagar, Bhavaninagar, Vita, Maharashtra 415311",
+  "mapLink": "https://google.com/maps/place/vasalkar+healthy+hub/data=!4m2!3m1!1s0x3bc167e565ac7d87:0x768106dc65bafd63?sa=X&ved=1t:242&ictx=111",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Cold Pressed Coconut Oil",
+    "Cold Pressed Groundnut Oil",
+    "Cold Pressed Sunflower Oil",
+    "Cold Pressed Safflower Oil",
+    "100% Organic Oils"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/16a34a/white?text=AH",
+    "banner": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=1600&auto=format&fit=crop",
+    "owner": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#16a34a"
+  }
+}

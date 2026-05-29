@@ -3,7 +3,8 @@ import Reveal from './Reveal.jsx'
 import { telLink } from '../utils/links.js'
 
 export default function About({ business }) {
-  const { description, ownerName, email, phone } = business
+  const { description, ownerName, email, phone, alternatePhone, images } = business
+  const ownerImage = images?.owner
   if (!description) return null
 
   return (
@@ -27,12 +28,16 @@ export default function About({ business }) {
             </div>
 
             {/* Contact Strip */}
-            {(ownerName || phone || email) && (
+            {(ownerName || phone || alternatePhone || email) && (
               <div className="flex flex-col gap-6 border-t border-slate-100 bg-slate-50 p-8 sm:flex-row sm:items-center sm:justify-between sm:px-12 sm:py-8">
                 {ownerName && (
                   <div className="flex items-center gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-sm ring-1 ring-slate-200">
-                      <User className="h-5 w-5 text-slate-400" />
+                    <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm ring-1 ring-slate-200">
+                      {ownerImage ? (
+                        <img src={ownerImage} alt={ownerName} className="h-full w-full object-cover" />
+                      ) : (
+                        <User className="h-5 w-5 text-slate-400" />
+                      )}
                     </div>
                     <div>
                       <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Owner</p>
@@ -44,6 +49,11 @@ export default function About({ business }) {
                   {phone && (
                     <a href={telLink(phone)} className="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-accent">
                       <Phone className="h-4 w-4" /> {phone}
+                    </a>
+                  )}
+                  {alternatePhone && (
+                    <a href={telLink(alternatePhone)} className="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-accent">
+                      <Phone className="h-4 w-4" /> {alternatePhone}
                     </a>
                   )}
                   {email && (

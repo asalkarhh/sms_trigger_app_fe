@@ -1,6 +1,7 @@
-import { Phone, MessageCircle } from 'lucide-react'
+import { Phone } from 'lucide-react'
 import SocialLinks from './SocialLinks.jsx'
 import { telLink, whatsappLink } from '../utils/links.js'
+import WhatsAppIcon from './WhatsAppIcon.jsx'
 
 export default function Footer({ business }) {
   const { businessName, tagline, category, phone, whatsapp, images } = business || {}
@@ -50,7 +51,7 @@ export default function Footer({ business }) {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm font-medium text-white/80 transition hover:text-white"
               >
-                <MessageCircle className="h-4 w-4 text-accent" strokeWidth={2.2} />
+                <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
                 Chat on WhatsApp
               </a>
             )}
@@ -63,15 +64,14 @@ export default function Footer({ business }) {
             © {new Date().getFullYear()} {businessName}. All rights reserved.
           </p>
           <p className="text-xs text-white/45">
-            Powered by <span className="font-semibold text-white/70">Smart SMS</span> —
-            Asalkar Techworks Pvt Ltd ·{' '}
+            Powered by <span className="font-semibold text-white/70">Smart SMS</span> —{' '}
             <a
               href="https://www.asalkar.in"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-accent hover:underline"
             >
-              www.asalkar.in
+              Asalkar Techworks Pvt Ltd
             </a>
           </p>
         </div>

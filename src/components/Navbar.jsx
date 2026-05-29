@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Phone, MessageCircle } from 'lucide-react'
+import { Phone } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
+import WhatsAppIcon from './WhatsAppIcon.jsx'
 
 export default function Navbar({ business }) {
   const { businessName, phone, whatsapp, images } = business
@@ -54,7 +55,7 @@ export default function Navbar({ business }) {
                   : 'glass text-white'
               }`}
             >
-              <MessageCircle className="h-[18px] w-[18px]" strokeWidth={2} />
+              <WhatsAppIcon className="h-[18px] w-[18px]" />
             </a>
           )}
           {phone && (

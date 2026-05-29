@@ -1,12 +1,10 @@
 import SectionHeading from './SectionHeading.jsx'
 import Reveal from './Reveal.jsx'
-import Hours from './Hours.jsx'
 import AddressBlock from './AddressBlock.jsx'
 
 export default function VisitUs({ business }) {
-  const hasHours = !!business.hours
   const hasAddress = !!business.address
-  if (!hasHours && !hasAddress) return null
+  if (!hasAddress) return null
 
   return (
     <section id="visit" className="scroll-mt-20 bg-slate-50 py-16 sm:py-24">
@@ -14,22 +12,16 @@ export default function VisitUs({ business }) {
         <Reveal>
           <SectionHeading
             eyebrow="Plan your visit"
-            title="Hours & location"
-            subtitle="Drop by during opening hours or get directions in one tap."
+            title="Location"
+            subtitle="Get directions in one tap."
+            center={true}
           />
         </Reveal>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-2">
-          {hasHours && (
-            <Reveal>
-              <Hours business={business} />
-            </Reveal>
-          )}
-          {hasAddress && (
-            <Reveal delay={120}>
-              <AddressBlock business={business} />
-            </Reveal>
-          )}
+        <div className="mt-10 mx-auto max-w-3xl">
+          <Reveal delay={120}>
+            <AddressBlock business={business} />
+          </Reveal>
         </div>
       </div>
     </section>

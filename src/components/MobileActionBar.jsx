@@ -1,5 +1,6 @@
-import { Phone, MessageCircle, Navigation } from 'lucide-react'
+import { Phone, Navigation } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
+import WhatsAppIcon from './WhatsAppIcon.jsx'
 
 // Thumb-friendly fixed bar shown only on small screens.
 export default function MobileActionBar({ business }) {
@@ -27,7 +28,7 @@ export default function MobileActionBar({ business }) {
             rel="noopener noreferrer"
             className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-accent/10 text-sm font-semibold text-accent active:scale-95"
           >
-            <MessageCircle className="h-4 w-4" strokeWidth={2.2} />
+            <WhatsAppIcon className="h-5 w-5" />
             Chat
           </a>
         )}
