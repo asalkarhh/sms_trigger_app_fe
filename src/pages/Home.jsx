@@ -3,24 +3,28 @@ import { Link } from 'react-router-dom'
 import { MessageSquareText, ArrowUpRight, Sparkles } from 'lucide-react'
 
 const DEMOS = [
+  // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
   {
     slug: 'asalkar-healthy-hub',
     name: 'Asalkar Healthy Hub',
     category: 'Organic Oil Manufacturer',
     accent: '#16a34a',
   },
+  // 2. Sudarshan Gas Repair Center (Appliance Repair)
   {
     slug: 'sudarshan-gas-repair',
     name: 'Sudarshan Gas Repair Center',
     category: 'Appliance Repair',
     accent: '#ea580c',
   },
+  // 3. Sharma Hair Salon (Salon)
   {
     slug: 'sharma-salon',
     name: 'Sharma Hair Salon',
     category: 'Salon',
     accent: '#D97706',
   },
+  // 4. Ramesh Auto Garage (Auto Repair)
   {
     slug: 'ramesh-garage',
     name: 'Ramesh Auto Garage',
@@ -55,6 +59,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto mt-14 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Map over the DEMOS array to generate each business grid card */}
             {DEMOS.map((demo) => (
               <Link
                 key={demo.slug}
