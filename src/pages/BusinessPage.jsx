@@ -29,6 +29,7 @@ export default function BusinessPage() {
   const { slug } = useParams()
   const [status, setStatus] = useState(STATUS.LOADING)
   const [business, setBusiness] = useState(null)
+  const [lang, setLang] = useState('mr') // Default entire page to Marathi
 
   useEffect(() => {
     let cancelled = false
@@ -86,21 +87,21 @@ export default function BusinessPage() {
 
   return (
     <div style={{ '--accent-rgb': accentRgb }} className="min-h-screen bg-white">
-      <Navbar business={business} />
-      <Hero business={business} />
-      <QuickInfo business={business} />
+      <Navbar business={business} lang={lang} setLang={setLang} />
+      <Hero business={business} lang={lang} />
+      <QuickInfo business={business} lang={lang} />
 
-      <About business={business} />
-      <Services business={business} />
-      <Gallery business={business} />
-      <VisitUs business={business} />
-      <PayButton business={business} />
+      <About business={business} lang={lang} />
+      <Services business={business} lang={lang} />
+      <Gallery business={business} lang={lang} />
+      <VisitUs business={business} lang={lang} />
+      <PayButton business={business} lang={lang} />
 
-      <Footer business={business} />
+      <Footer business={business} lang={lang} />
 
       {/* Spacer so the fixed mobile bar never covers footer content */}
       <div className="h-20 sm:hidden" />
-      <MobileActionBar business={business} />
+      <MobileActionBar business={business} lang={lang} />
     </div>
   )
 }

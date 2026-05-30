@@ -1,16 +1,22 @@
 {
   "slug": "morya-electronics",
   "businessName": "Morya Electronics",
+  "businessName_mr": "मोरया इलेक्ट्रॉनिक्स",
   "ownerName": "Vaibhav Punekar",
+  "ownerName_mr": "वैभव पुणेकर",
   "category": "Electronics Retailer",
+  "category_mr": "इलेक्ट्रॉनिक्स रिटेलर",
   "tagline": "Your trusted store for home appliances and electronic equipment",
+  "tagline_mr": "घरगुती उपकरणे आणि इलेक्ट्रॉनिक उपकरणांसाठी तुमचे विश्वसनीय स्टोअर",
   "description": "Welcome to Morya Electronics! We offer a wide range of high-quality home appliances including Smart TVs, Refrigerators, Washing Machines, Air Conditioners, and more. Visit our store for the best brands and reliable customer service.",
+  "description_mr": "मोरया इलेक्ट्रॉनिक्स मध्ये आपले स्वागत आहे! आम्ही स्मार्ट टीव्ही, रेफ्रिजरेटर, वॉशिंग मशीन, एअर कंडिशनर आणि बरेच काही यासह उच्च-गुणवत्तेच्या घरगुती उपकरणांची विस्तृत श्रेणी ऑफर करतो. सर्वोत्तम ब्रँड आणि विश्वासार्ह ग्राहक सेवेसाठी आमच्या स्टोअरला भेट द्या.",
 
   "phone": "+917387651631",
   "whatsapp": "+917387651631",
   "email": "",
 
   "address": "Morya Electronics, Vita",
+  "address_mr": "मोरया इलेक्ट्रॉनिक्स, विटा",
   "mapLink": "https://maps.app.goo.gl/nvD9bHQ6iyNHG3k36",
 
   "hours": {
@@ -29,6 +35,13 @@
     "Washing Machines",
     "Air Conditioners",
     "Kitchen Appliances"
+  ],
+  "services_mr": [
+    "स्मार्ट टीव्ही आणि ऑडिओ",
+    "रेफ्रिजरेटर",
+    "वॉशिंग मशीन्स",
+    "एअर कंडिशनर्स",
+    "किचन अप्लायन्सेस"
   ],
 
   "social": {

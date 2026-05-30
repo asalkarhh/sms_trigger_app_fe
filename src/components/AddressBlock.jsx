@@ -1,12 +1,13 @@
 import { MapPin, Navigation } from 'lucide-react'
 
 // Presentational card; the surrounding section is rendered by VisitUs.
-export default function AddressBlock({ business }) {
-  const { address, mapLink } = business
-  if (!address) return null
+export default function AddressBlock({ business, lang }) {
+  const { mapLink } = business
+  const displayAddress = lang === 'mr' ? (business.address_mr || business.address) : business.address
+  if (!displayAddress) return null
 
-  const mapEmbed = mapLink
-    ? `https://maps.google.com/maps?q=${encodeURIComponent(address)}&z=15&output=embed`
+  const mapEmbed = mapLink 
+    ? `https://maps.google.com/maps?q=${encodeURIComponent(displayAddress)}&z=15&output=embed` 
     : null
 
   return (
@@ -38,10 +39,10 @@ export default function AddressBlock({ business }) {
           <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-accent/10 text-accent">
             <MapPin className="h-5 w-5" strokeWidth={2} />
           </span>
-          <h3 className="font-display text-xl font-bold text-slate-900">Find us</h3>
+          <h3 className="font-display text-xl font-bold text-slate-900">{lang === 'mr' ? 'आम्हाला शोधा' : 'Find us'}</h3>
         </div>
 
-        <p className="text-base leading-relaxed text-slate-600">{address}</p>
+        <p className="text-base leading-relaxed text-slate-600">{displayAddress}</p>
 
         {mapLink && (
           <a
@@ -51,7 +52,7 @@ export default function AddressBlock({ business }) {
             className="mt-6 flex min-h-[48px] w-full items-center justify-center gap-2 rounded-2xl bg-accent/10 text-sm font-semibold text-accent transition hover:bg-accent hover:text-white active:scale-[0.98]"
           >
             <Navigation className="h-4 w-4" strokeWidth={2.2} />
-            Get directions
+            {lang === 'mr' ? 'दिशा मिळवा' : 'Get directions'}
           </a>
         )}
       </div>

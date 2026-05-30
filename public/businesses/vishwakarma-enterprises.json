@@ -1,0 +1,60 @@
+{
+  "slug": "vishwakarma-enterprises",
+  "businessName": "Vishwakarma Enterprises",
+  "businessName_mr": "विश्वकर्मा एंटरप्रायजेस",
+  "ownerName": "Yogesh Sutar",
+  "ownerName_mr": "योगेश सुतार",
+  "category": "Fabrication & Engineering",
+  "category_mr": "फॅब्रिकेशन आणि इंजिनिअरिंग",
+  "tagline": "Quality engineering and fabrication services",
+  "tagline_mr": "उत्कृष्ट इंजिनिअरिंग आणि फॅब्रिकेशन सेवा",
+  "description": "Welcome to Vishwakarma Enterprises. We provide expert engineering, fabrication, and related hardware solutions with a focus on durability and quality craftsmanship.",
+  "description_mr": "विश्वकर्मा एंटरप्रायजेसमध्ये आपले स्वागत आहे. आम्ही टिकाऊपणा आणि दर्जेदार कारागिरीवर लक्ष केंद्रित करून तज्ञ अभियांत्रिकी, फॅब्रिकेशन आणि संबंधित हार्डवेअर सोल्यूशन्स प्रदान करतो.",
+
+  "phone": "+918857828601",
+  "whatsapp": "+918857828601",
+  "email": "",
+
+  "address": "Vishwakarma Enterprises, Vita",
+  "address_mr": "विश्वकर्मा एंटरप्रायजेस, विटा",
+  "mapLink": "https://maps.app.goo.gl/knVa4qrkYHbxq7G78?g_st=ac",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Fabrication Works",
+    "Welding Services",
+    "Engineering Solutions",
+    "Custom Metal Works"
+  ],
+  "services_mr": [
+    "फॅब्रिकेशन वर्क्स",
+    "वेल्डिंग सेवा",
+    "इंजिनिअरिंग सोल्यूशन्स",
+    "कस्टम मेटल वर्क्स"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/vishwakarmaenterprises_2025?igsh=cnNybzZudjNoZTVm",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/eab308/white?text=VE",
+    "banner": "https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize"
+  },
+
+  "theme": {
+    "accentColor": "#eab308"
+  }
+}

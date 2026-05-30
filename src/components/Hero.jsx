@@ -18,10 +18,14 @@ function getDefaultBanner(category) {
   return 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop'
 }
 
-export default function Hero({ business }) {
+export default function Hero({ business, lang }) {
   const { businessName, category, tagline, phone, whatsapp, mapLink, images } = business
   const banner = images?.banner || getDefaultBanner(category)
   const logo = images?.logo
+
+  const displayBusinessName = lang === 'mr' ? (business.businessName_mr || businessName) : businessName
+  const displayCategory = lang === 'mr' ? (business.category_mr || category) : category
+  const displayTagline = lang === 'mr' ? (business.tagline_mr || tagline) : tagline
 
   return (
     <section id="top" className="relative flex min-h-[80svh] flex-col justify-end overflow-hidden pb-16 pt-32 sm:min-h-[70svh]">
@@ -42,6 +46,7 @@ export default function Hero({ business }) {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,var(--accent-color,transparent),transparent_60%)] opacity-30 mix-blend-overlay" />
 
       <div className="container-page relative z-10 w-full">
+
         <div className="mx-auto max-w-3xl">
           <div className="flex flex-col md:flex-row md:items-end gap-6 md:gap-8">
             
@@ -57,7 +62,7 @@ export default function Hero({ business }) {
                   />
                 ) : (
                   <span className="font-display text-5xl font-bold text-white shadow-sm">
-                    {businessName?.charAt(0)}
+                    {displayBusinessName?.charAt(0)}
                   </span>
                 )}
               </div>
@@ -65,18 +70,18 @@ export default function Hero({ business }) {
 
             {/* Business Titles */}
             <div className="flex-1 pb-2 animate-fade-in-up [animation-delay:100ms]">
-              {category && (
+              {displayCategory && (
                 <span className="mb-3 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.15em] text-white backdrop-blur-md">
-                  {category}
+                  {displayCategory}
                 </span>
               )}
               <h1 className="flex flex-wrap items-center gap-3 font-display text-4xl font-bold leading-[1.1] tracking-tight text-white drop-shadow-md sm:text-5xl md:text-6xl">
-                {businessName}
+                {displayBusinessName}
                 <BadgeCheck className="h-7 w-7 text-blue-400 sm:h-9 sm:w-9" fill="white" aria-label="Verified Business" />
               </h1>
-              {tagline && (
+              {displayTagline && (
                 <p className="mt-3 max-w-xl text-lg font-light leading-relaxed text-slate-200 sm:text-xl">
-                  {tagline}
+                  {displayTagline}
                 </p>
               )}
             </div>
@@ -90,7 +95,7 @@ export default function Hero({ business }) {
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-white shadow-lg shadow-accent/30 transition hover:brightness-110 active:scale-95"
               >
                 <Phone className="h-5 w-5" strokeWidth={2.5} />
-                Call Now
+                {lang === 'mr' ? 'कॉल करा' : 'Call Now'}
               </a>
             )}
             {whatsapp && (
@@ -101,7 +106,7 @@ export default function Hero({ business }) {
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-white px-8 text-base font-semibold text-slate-900 shadow-xl transition hover:bg-slate-50 active:scale-95"
               >
                 <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
-                WhatsApp
+                {lang === 'mr' ? 'व्हॉट्सॲप' : 'WhatsApp'}
               </a>
             )}
             {mapLink && (
@@ -112,7 +117,7 @@ export default function Hero({ business }) {
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 text-base font-semibold text-white backdrop-blur-md transition hover:bg-white/20 active:scale-95"
               >
                 <Navigation className="h-5 w-5" strokeWidth={2.5} />
-                Directions
+                {lang === 'mr' ? 'दिशा' : 'Directions'}
               </a>
             )}
             
@@ -122,7 +127,7 @@ export default function Hero({ business }) {
               className="ml-auto inline-flex items-center gap-2 text-sm font-medium text-white/70 underline-offset-4 transition hover:text-white hover:underline"
             >
               <UserPlus className="h-4 w-4" strokeWidth={2} />
-              Save to Contacts
+              {lang === 'mr' ? 'संपर्कात जतन करा' : 'Save to Contacts'}
             </button>
           </div>
         </div>

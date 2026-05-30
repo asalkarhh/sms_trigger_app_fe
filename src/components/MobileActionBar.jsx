@@ -3,7 +3,7 @@ import { telLink, whatsappLink } from '../utils/links.js'
 import WhatsAppIcon from './WhatsAppIcon.jsx'
 
 // Thumb-friendly fixed bar shown only on small screens.
-export default function MobileActionBar({ business }) {
+export default function MobileActionBar({ business, lang }) {
   const { phone, whatsapp, mapLink } = business
 
   return (
@@ -18,7 +18,7 @@ export default function MobileActionBar({ business }) {
             className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-accent text-sm font-semibold text-white active:scale-95"
           >
             <Phone className="h-4 w-4" strokeWidth={2.2} />
-            Call
+            {lang === 'mr' ? 'कॉल' : 'Call'}
           </a>
         )}
         {whatsapp && (
@@ -29,7 +29,7 @@ export default function MobileActionBar({ business }) {
             className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-accent/10 text-sm font-semibold text-accent active:scale-95"
           >
             <WhatsAppIcon className="h-5 w-5" />
-            Chat
+            {lang === 'mr' ? 'चॅट' : 'Chat'}
           </a>
         )}
         {mapLink && (
@@ -40,7 +40,7 @@ export default function MobileActionBar({ business }) {
             className="flex min-h-[48px] items-center justify-center gap-2 rounded-2xl bg-slate-100 text-sm font-semibold text-slate-700 active:scale-95"
           >
             <Navigation className="h-4 w-4" strokeWidth={2.2} />
-            Map
+            {lang === 'mr' ? 'नकाशा' : 'Map'}
           </a>
         )}
       </div>

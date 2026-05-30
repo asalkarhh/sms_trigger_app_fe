@@ -1,16 +1,22 @@
 {
   "slug": "asalkar-healthy-hub",
   "businessName": "Asalkar Healthy Hub",
+  "businessName_mr": "असलकर हेल्दी हब",
   "ownerName": "Rajkumar Asalkar",
+  "ownerName_mr": "राजकुमार असलकर",
   "category": "Organic Oil Manufacturer",
+  "category_mr": "सेंद्रिय तेल उत्पादक",
   "tagline": "100% Organic Cold Pressed Oils",
+  "tagline_mr": "१००% सेंद्रिय कोल्ड प्रेस तेल",
   "description": "Manufacturer of fully organic, chemical-free cold pressed Coconut, Groundnut, Sunflower, and Safflower oils. We deliver pure health and wellness right from Vita city.",
+  "description_mr": "आम्ही १००% सेंद्रिय, रसायनमुक्त नारळ, शेंगदाणा, सूर्यफूल आणि करडई तेलाचे उत्पादन करतो. विटा शहरातून शुद्ध आरोग्य आणि कल्याण तुमच्या दारात.",
 
   "phone": "+918421429515",
   "whatsapp": "+918421429515",
   "email": "",
 
   "address": "Gharkul, Karad - Atpadi Rd, Vivekanand Nagar, Bhavaninagar, Vita, Maharashtra 415311",
+  "address_mr": "घरकुल, कराड - आटपाडी रोड, विवेकानंद नगर, भवानीनगर, विटा, महाराष्ट्र ४१५३११",
   "mapLink": "https://maps.app.goo.gl/g6m83b2NaBcZf8j48",
 
   "hours": {
@@ -30,10 +36,17 @@
     "Cold Pressed Safflower Oil",
     "100% Organic Oils"
   ],
+  "services_mr": [
+    "कोल्ड प्रेस नारळ तेल",
+    "कोल्ड प्रेस शेंगदाणा तेल",
+    "कोल्ड प्रेस सूर्यफूल तेल",
+    "कोल्ड प्रेस करडई तेल",
+    "१००% सेंद्रिय तेल"
+  ],
 
   "social": {
     "website": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/asalkarhealthyhub/",
     "facebook": "",
     "youtube": ""
   },

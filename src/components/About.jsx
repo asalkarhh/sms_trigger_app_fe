@@ -2,8 +2,11 @@ import { Mail, Phone, User, CheckCircle2 } from 'lucide-react'
 import Reveal from './Reveal.jsx'
 import { telLink } from '../utils/links.js'
 
-export default function About({ business }) {
-  const { description, ownerName, email, phone, alternatePhone, images } = business
+export default function About({ business, lang }) {
+  const { email, phone, alternatePhone, images } = business
+  const description = lang === 'mr' ? (business.description_mr || business.description) : business.description
+  const ownerName = lang === 'mr' ? (business.ownerName_mr || business.ownerName) : business.ownerName
+
   const ownerImage = images?.owner
   if (!description) return null
 
@@ -19,7 +22,7 @@ export default function About({ business }) {
                   <CheckCircle2 className="h-5 w-5" strokeWidth={2.5} />
                 </div>
                 <h2 className="font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                  Business Information
+                  {lang === 'mr' ? 'व्यवसाय माहिती' : 'Business Information'}
                 </h2>
               </div>
               <p className="text-base leading-relaxed text-slate-600 sm:text-lg">
@@ -40,7 +43,7 @@ export default function About({ business }) {
                       )}
                     </div>
                     <div>
-                      <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Owner</p>
+                      <p className="text-xs font-bold uppercase tracking-wider text-slate-400">{lang === 'mr' ? 'मालक' : 'Owner'}</p>
                       <p className="text-sm font-semibold text-slate-900">{ownerName}</p>
                     </div>
                   </div>

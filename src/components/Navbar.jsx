@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
-import { Phone } from 'lucide-react'
+import { Phone, Globe } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
 import WhatsAppIcon from './WhatsAppIcon.jsx'
 
-export default function Navbar({ business }) {
-  const { businessName, phone, whatsapp, images } = business
+export default function Navbar({ business, lang, setLang }) {
+  const { phone, whatsapp, images } = business
+  const displayBusinessName = lang === 'mr' ? (business.businessName_mr || business.businessName) : business.businessName
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -38,11 +39,22 @@ export default function Navbar({ business }) {
               scrolled ? 'text-slate-900' : 'text-white drop-shadow'
             }`}
           >
-            {businessName}
+            {displayBusinessName}
           </span>
         </a>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={() => setLang(l => (l === 'mr' ? 'en' : 'mr'))}
+            className={`flex w-[105px] items-center justify-center gap-1.5 rounded-full border py-1.5 text-sm font-semibold transition active:scale-95 ${
+              scrolled
+                ? 'border-slate-200 bg-slate-100 text-slate-700 hover:bg-slate-200'
+                : 'border-white/30 bg-white/10 text-white backdrop-blur-md hover:bg-white/20'
+            }`}
+          >
+            <Globe className="h-4 w-4" />
+            {lang === 'mr' ? 'English' : 'मराठी'}
+          </button>
           {whatsapp && (
             <a
               href={whatsappLink(whatsapp)}
@@ -64,8 +76,8 @@ export default function Navbar({ business }) {
               className="flex h-10 items-center gap-2 rounded-full bg-accent px-4 text-sm font-semibold text-white shadow-soft transition active:scale-95"
             >
               <Phone className="h-[16px] w-[16px]" strokeWidth={2.2} />
-              <span className="hidden sm:inline">Call now</span>
-              <span className="sm:hidden">Call</span>
+              <span className="hidden sm:inline">{lang === 'mr' ? 'आता कॉल करा' : 'Call now'}</span>
+              <span className="sm:hidden">{lang === 'mr' ? 'कॉल' : 'Call'}</span>
             </a>
           )}
         </div>

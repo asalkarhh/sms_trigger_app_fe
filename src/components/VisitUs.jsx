@@ -2,7 +2,7 @@ import SectionHeading from './SectionHeading.jsx'
 import Reveal from './Reveal.jsx'
 import AddressBlock from './AddressBlock.jsx'
 
-export default function VisitUs({ business }) {
+export default function VisitUs({ business, lang }) {
   const hasAddress = !!business.address
   if (!hasAddress) return null
 
@@ -11,16 +11,16 @@ export default function VisitUs({ business }) {
       <div className="container-page">
         <Reveal>
           <SectionHeading
-            eyebrow="Plan your visit"
-            title="Location"
-            subtitle="Get directions in one tap."
+            eyebrow={lang === 'mr' ? 'तुमच्या भेटीचे नियोजन करा' : 'Plan your visit'}
+            title={lang === 'mr' ? 'स्थान' : 'Location'}
+            subtitle={lang === 'mr' ? 'एका टॅपवर दिशा मिळवा.' : 'Get directions in one tap.'}
             center={true}
           />
         </Reveal>
 
         <div className="mt-10 mx-auto max-w-3xl">
           <Reveal delay={120}>
-            <AddressBlock business={business} />
+            <AddressBlock business={business} lang={lang} />
           </Reveal>
         </div>
       </div>
