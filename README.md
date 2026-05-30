@@ -1,7 +1,7 @@
 # Smart SMS — Business Pages
 
 A static React site that serves a **digital business card** for each customer at a
-clean URL like `yourdomain.com/sharma-salon`. Pages are opened when someone taps a
+clean URL like `yourdomain.com/asalkar-healthy-hub`. Pages are opened when someone taps a
 link in an auto-reply SMS sent by the **Smart SMS** Android app.
 
 **One JSON file per business.** Adding a customer means dropping in one JSON file and
@@ -29,8 +29,6 @@ npm run dev
 Then open:
 
 - http://localhost:5173/ — demo landing page (lists the sample businesses)
-- http://localhost:5173/sharma-salon — sample salon page
-- http://localhost:5173/ramesh-garage — sample garage page
 
 Build for production:
 

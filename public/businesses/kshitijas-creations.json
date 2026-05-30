@@ -1,0 +1,48 @@
+{
+  "slug": "kshitijas-creations",
+  "businessName": "Kshitija's Creations",
+  "ownerName": "Kshitija Latane",
+  "category": "Custom Handmade Jewelry",
+  "tagline": "Handmade customized jewelry for your special occasions",
+  "description": "We specialize in crafting beautiful, handmade customized jewelry perfect for Haldi functions, Baby Showers, and other traditional celebrations. Every piece is made with love and care to add elegance to your special day.",
+
+  "phone": "+919270141174",
+  "whatsapp": "+919270141174",
+  "email": "",
+
+  "address": "Kshitija's Creations",
+  "mapLink": "https://maps.app.goo.gl/JEjJMfxtsmmRQbz4A",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Haldi Function Jewelry",
+    "Baby Shower Jewelry",
+    "Customized Floral Jewelry",
+    "Handmade Bridal Sets"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/kshitijas_creations/",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/d946ef/white?text=KC",
+    "banner": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#d946ef"
+  }
+}

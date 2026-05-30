@@ -9,6 +9,7 @@ const DEMOS = [
     name: 'Asalkar Healthy Hub',
     category: 'Organic Oil Manufacturer',
     accent: '#16a34a',
+    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=1600&auto=format&fit=crop',
   },
   // 2. Sudarshan Gas Repair Center (Appliance Repair)
   {
@@ -16,20 +17,31 @@ const DEMOS = [
     name: 'Sudarshan Gas Repair Center',
     category: 'Appliance Repair',
     accent: '#ea580c',
+    image: 'https://images.openai.com/static-rsc-4/_HevTAY46GxkDwzG7RWfQWk_Sug4AkIEEG2gCi7v70xQi89WUaGD3alhURfKLtq85KE6stS_zfCydjBH64SxeNslj5TQpC1m11CYKFmoOi-K1mvu3WDmgN1K5oEvMN1jO_rsxgdd47O5ibcN8NW4ibekL2j7bkyuVV67uZ68kFM?purpose=inline',
   },
-  // 3. Sharma Hair Salon (Salon)
+  // 3. Choundeshwri Auto Parts (Auto Parts)
   {
-    slug: 'sharma-salon',
-    name: 'Sharma Hair Salon',
-    category: 'Salon',
-    accent: '#D97706',
+    slug: 'choundeshwri-auto-parts',
+    name: 'Choundeshwri Auto Parts',
+    category: 'Auto Parts',
+    accent: '#2563eb',
+    image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop',
   },
-  // 4. Ramesh Auto Garage (Auto Repair)
+  // 4. Kshitija's Creations (Handmade Jewelry)
   {
-    slug: 'ramesh-garage',
-    name: 'Ramesh Auto Garage',
-    category: 'Auto Repair',
-    accent: '#1E40AF',
+    slug: 'kshitijas-creations',
+    name: "Kshitija's Creations",
+    category: 'Custom Handmade Jewelry',
+    accent: '#d946ef',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop',
+  },
+  // 5. Morya Electronics
+  {
+    slug: 'morya-electronics',
+    name: 'Morya Electronics',
+    category: 'Electronics Retailer',
+    accent: '#2563eb',
+    image: 'https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize',
   },
 ]
 
@@ -66,11 +78,19 @@ export default function Home() {
                 to={`/${demo.slug}`}
                 className="group relative overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-7 transition hover:-translate-y-1 hover:border-white/20"
               >
+                {/* Optional Background Image */}
+                {demo.image && (
+                  <div className="absolute inset-0 z-0 opacity-50 transition-opacity duration-300 group-hover:opacity-70">
+                    <img src={demo.image} alt={demo.name} className="h-full w-full object-cover" />
+                    {/* Dark gradient overlay so the white text stays readable */}
+                    <div className="absolute inset-0 bg-slate-950/60 group-hover:bg-slate-950/40 transition-colors" />
+                  </div>
+                )}
                 <div
-                  className="absolute -right-10 -top-10 h-32 w-32 rounded-full blur-2xl transition group-hover:scale-125"
+                  className="absolute -right-10 -top-10 z-0 h-32 w-32 rounded-full blur-2xl transition group-hover:scale-125"
                   style={{ backgroundColor: `${demo.accent}55` }}
                 />
-                <div className="relative">
+                <div className="relative z-10">
                   <span
                     className="inline-flex h-12 w-12 items-center justify-center rounded-2xl text-white"
                     style={{ backgroundColor: demo.accent }}

@@ -1,0 +1,40 @@
+{
+  "slug": "choundeshwri-auto-parts",
+  "businessName": "Choundeshwri Auto Parts",
+  "ownerName": "Vishal Latane",
+  "category": "Auto Parts",
+  "tagline": "(चौंडेश्वरी ऑटो पार्ट्स) — Quality Auto Parts & Accessories",
+  "description": "Your trusted source for all auto parts and accessories. We sell two-wheeler parts, and each and every part comes with a guarantee.",
+
+  "phone": "+918600697370",
+  "whatsapp": "+918600697370",
+  "email": "",
+
+  "address": "Choundeshwri Auto Parts, Atpadi",
+  "mapLink": "https://maps.app.goo.gl/tbPgEkbcxJ5FRc2Y7",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Auto Parts",
+    "Accessories",
+    "Spares"
+  ],
+
+  "images": {
+    "logo": "https://placehold.co/240x240/2563eb/white?text=CA",
+    "banner": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1600&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#2563eb"
+  }
+}

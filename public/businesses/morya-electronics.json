@@ -1,0 +1,49 @@
+{
+  "slug": "morya-electronics",
+  "businessName": "Morya Electronics",
+  "ownerName": "Vaibhav Punekar",
+  "category": "Electronics Retailer",
+  "tagline": "Your trusted store for home appliances and electronic equipment",
+  "description": "Welcome to Morya Electronics! We offer a wide range of high-quality home appliances including Smart TVs, Refrigerators, Washing Machines, Air Conditioners, and more. Visit our store for the best brands and reliable customer service.",
+
+  "phone": "+917387651631",
+  "whatsapp": "+917387651631",
+  "email": "",
+
+  "address": "Morya Electronics, Vita",
+  "mapLink": "https://maps.app.goo.gl/nvD9bHQ6iyNHG3k36",
+
+  "hours": {
+    "mon": "10:00 AM - 9:00 PM",
+    "tue": "10:00 AM - 9:00 PM",
+    "wed": "10:00 AM - 9:00 PM",
+    "thu": "10:00 AM - 9:00 PM",
+    "fri": "10:00 AM - 9:00 PM",
+    "sat": "10:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Smart TVs & Audio",
+    "Refrigerators",
+    "Washing Machines",
+    "Air Conditioners",
+    "Kitchen Appliances"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/2563eb/white?text=ME",
+    "banner": "https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize"
+  },
+
+  "theme": {
+    "accentColor": "#2563eb"
+  }
+}
