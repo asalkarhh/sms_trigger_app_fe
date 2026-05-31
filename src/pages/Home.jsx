@@ -2,9 +2,6 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink } from 'lucide-react'
 
-// Import local image for Vishwakarma
-import vishwakarmaBg from '../assets/Vishwakarmabg.jpg'
-
 const DEMOS = [
   // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
   {
@@ -64,7 +61,7 @@ const DEMOS = [
     category: 'Agriculture & Garden Tools',
     category_mr: 'शेती आणि गार्डन टूल्स',
     accent: '#eab308',
-    image: vishwakarmaBg,
+    image: '/vishwakarma-banner.jpg',
   },
   // 7. Divate Auto Parts
   {
