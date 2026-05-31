@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink, Globe } from 'lucide-react'
+import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink } from 'lucide-react'
 
 const DEMOS = [
   // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
@@ -66,8 +66,6 @@ const DEMOS = [
 ]
 
 export default function Home() {
-  const [lang, setLang] = useState('mr') // default to Marathi
-
   useEffect(() => {
     document.title = 'Smart SMS — Business Pages'
   }, [])
@@ -88,13 +86,6 @@ export default function Home() {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <button
-              onClick={() => setLang(l => (l === 'mr' ? 'en' : 'mr'))}
-              className="flex w-[105px] items-center justify-center gap-1.5 rounded-full border border-white/30 bg-white/10 py-1.5 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20 active:scale-95"
-            >
-              <Globe className="h-4 w-4" />
-              {lang === 'mr' ? 'English' : 'मराठी'}
-            </button>
             <a
               href="https://www.asalkar.in"
               target="_blank"
@@ -118,22 +109,12 @@ export default function Home() {
               Smart SMS · Business Pages
             </div>
             <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">
-            {lang === 'mr' ? 'प्रत्येक व्यवसायासाठी एक प्रीमियम पेज.' : 'A premium page for every business.'}
+              A premium page for every business.
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-white/65">
-            {lang === 'mr' ? (
-              <>
-                प्रत्येक ग्राहकाला एक सुंदर, मोबाईल-रेडी लँडिंग पेज मिळते{' '}
-                <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
-                {' '}— जे थेट ऑटो-रिप्लाय SMS वरून उघडते.
-              </>
-            ) : (
-              <>
-                Every customer gets a beautiful, mobile-ready landing page at{' '}
-                <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
-                {' '}— opened straight from an auto-reply SMS.
-              </>
-            )}
+              Every customer gets a beautiful, mobile-ready landing page at{' '}
+              <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
+              {' '}— opened straight from an auto-reply SMS.
             </p>
           </div>
 
@@ -165,13 +146,13 @@ export default function Home() {
                     <MessageSquareText className="h-6 w-6" />
                   </span>
                   <p className="mt-5 font-display text-xl font-bold">
-                    {lang === 'mr' ? (demo.name_mr || demo.name) : demo.name}
+                    {demo.name}
                   </p>
                   <p className="mt-1 text-sm text-white/50">
-                    {lang === 'mr' ? (demo.category_mr || demo.category) : demo.category} · /{demo.slug}
+                    {demo.category} · /{demo.slug}
                   </p>
                   <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-white/80">
-                    {lang === 'mr' ? 'लाईव्ह पेज पहा' : 'View live page'}
+                    View live page
                     <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </span>
                 </div>
