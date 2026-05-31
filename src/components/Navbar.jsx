@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Phone, Globe } from 'lucide-react'
+import { Phone, Globe, MapPin } from 'lucide-react'
 import { telLink, whatsappLink } from '../utils/links.js'
 import WhatsAppIcon from './WhatsAppIcon.jsx'
 
@@ -55,7 +55,7 @@ export default function Navbar({ business, lang, setLang }) {
             <Globe className="h-4 w-4" />
             {lang === 'mr' ? 'English' : 'मराठी'}
           </button>
-          {whatsapp && (
+          {whatsapp && !business.hideActionButtons && (
             <a
               href={whatsappLink(whatsapp)}
               target="_blank"
@@ -70,7 +70,7 @@ export default function Navbar({ business, lang, setLang }) {
               <WhatsAppIcon className="h-[18px] w-[18px]" />
             </a>
           )}
-          {phone && (
+          {phone && !business.hideActionButtons && (
             <a
               href={telLink(phone)}
               className="flex h-10 items-center gap-2 rounded-full bg-accent px-4 text-sm font-semibold text-white shadow-soft transition active:scale-95"
@@ -78,6 +78,18 @@ export default function Navbar({ business, lang, setLang }) {
               <Phone className="h-[16px] w-[16px]" strokeWidth={2.2} />
               <span className="hidden sm:inline">{lang === 'mr' ? 'आता कॉल करा' : 'Call now'}</span>
               <span className="sm:hidden">{lang === 'mr' ? 'कॉल' : 'Call'}</span>
+            </a>
+          )}
+          {business.hideActionButtons && business.branches && business.branches[0]?.mapLink && (
+            <a
+              href={business.branches[0].mapLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 items-center gap-2 rounded-full bg-accent px-4 text-sm font-semibold text-white shadow-soft transition active:scale-95"
+            >
+              <MapPin className="h-[16px] w-[16px]" strokeWidth={2.2} />
+              <span className="hidden sm:inline">{lang === 'mr' ? 'स्थान' : 'Location'}</span>
+              <span className="sm:hidden">{lang === 'mr' ? 'स्थान' : 'Location'}</span>
             </a>
           )}
         </div>

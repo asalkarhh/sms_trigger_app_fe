@@ -89,7 +89,7 @@ export default function Hero({ business, lang }) {
 
           {/* Desktop CTAs (Hidden on mobile where StickyCTA takes over) */}
           <div className="mt-8 hidden sm:flex w-full animate-fade-in-up [animation-delay:200ms] flex-row items-center gap-4">
-            {phone && (
+            {phone && !business.hideActionButtons && (
               <a
                 href={telLink(phone)}
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-white shadow-lg shadow-accent/30 transition hover:brightness-110 active:scale-95"
@@ -98,7 +98,7 @@ export default function Hero({ business, lang }) {
                 {lang === 'mr' ? 'कॉल करा' : 'Call Now'}
               </a>
             )}
-            {whatsapp && (
+            {whatsapp && !business.hideActionButtons && (
               <a
                 href={whatsappLink(whatsapp)}
                 target="_blank"
@@ -109,12 +109,23 @@ export default function Hero({ business, lang }) {
                 {lang === 'mr' ? 'व्हॉट्सॲप' : 'WhatsApp'}
               </a>
             )}
-            {mapLink && (
+            {mapLink && !business.hideActionButtons && (
               <a
                 href={mapLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex min-h-[56px] items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 text-base font-semibold text-white backdrop-blur-md transition hover:bg-white/20 active:scale-95"
+              >
+                <Navigation className="h-5 w-5" strokeWidth={2.5} />
+                {lang === 'mr' ? 'दिशा' : 'Directions'}
+              </a>
+            )}
+            {business.hideActionButtons && business.branches && business.branches[0]?.mapLink && (
+              <a
+                href={business.branches[0].mapLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-accent px-8 text-base font-semibold text-white shadow-lg shadow-accent/30 transition hover:brightness-110 active:scale-95"
               >
                 <Navigation className="h-5 w-5" strokeWidth={2.5} />
                 {lang === 'mr' ? 'दिशा' : 'Directions'}

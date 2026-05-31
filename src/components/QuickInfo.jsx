@@ -13,19 +13,32 @@ export default function QuickInfo({ business, lang }) {
 
           {/* Address Snippet */}
           {displayAddress && (
-            <a href={mapLink} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4">
+            <a 
+              href={business.hideActionButtons && business.branches ? '#visit' : mapLink} 
+              target={business.hideActionButtons && business.branches ? '_self' : '_blank'} 
+              rel="noopener noreferrer" 
+              className={`group flex items-center gap-4 ${
+                business.hideActionButtons && business.branches ? 'col-span-full justify-center flex-col text-center sm:flex-row sm:text-left' : ''
+              }`}
+            >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-accent/10 group-hover:text-accent">
                 <MapPin className="h-5 w-5" />
               </div>
-              <div className="flex-1">
-                <p className="text-sm font-medium text-slate-500">{lang === 'mr' ? 'स्थान' : 'Location'}</p>
-                <p className="text-sm font-semibold tracking-wide text-slate-900 line-clamp-2 transition group-hover:text-accent">{displayAddress}</p>
+              <div className={business.hideActionButtons && business.branches ? '' : 'flex-1'}>
+                <p className="text-sm font-medium text-slate-500">
+                  {business.hideActionButtons && business.branches ? (lang === 'mr' ? 'आमच्या शाखा' : 'Our Branches') : (lang === 'mr' ? 'स्थान' : 'Location')}
+                </p>
+                <p className="text-sm font-semibold tracking-wide text-slate-900 line-clamp-2 transition group-hover:text-accent">
+                  {business.hideActionButtons && business.branches 
+                    ? (lang === 'mr' ? 'सर्व शाखांचे पत्ते पाहण्यासाठी येथे क्लिक करा' : 'Click here to view all branch addresses') 
+                    : displayAddress}
+                </p>
               </div>
             </a>
           )}
 
           {/* Phone Snippet */}
-          {phone && (
+          {phone && !business.hideActionButtons && (
             <div className="group flex items-center gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-accent/10 group-hover:text-accent">
                 <Phone className="h-5 w-5" />
@@ -41,7 +54,7 @@ export default function QuickInfo({ business, lang }) {
           )}
 
           {/* WhatsApp Snippet */}
-          {whatsapp && (
+          {whatsapp && !business.hideActionButtons && (
             <div className="group flex items-center gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-[#25D366]/10 group-hover:text-[#25D366]">
                 <WhatsAppIcon className="h-6 w-6" />

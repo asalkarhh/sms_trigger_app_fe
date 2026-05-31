@@ -73,6 +73,16 @@ const DEMOS = [
     accent: '#2563eb',
     image: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1600&auto=format&fit=crop',
   },
+  // 8. Siddesh Super Shoppy
+  {
+    slug: 'siddesh-super-shoppy',
+    name: 'Siddesh Super Shoppy',
+    name_mr: 'सिद्धेश सुपर शॉपी',
+    category: 'Super Shoppy',
+    category_mr: 'सुपर शॉपी',
+    accent: '#16a34a',
+    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {

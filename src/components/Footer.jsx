@@ -3,8 +3,12 @@ import SocialLinks from './SocialLinks.jsx'
 import { telLink, whatsappLink } from '../utils/links.js'
 import WhatsAppIcon from './WhatsAppIcon.jsx'
 
-export default function Footer({ business }) {
+export default function Footer({ business, lang }) {
   const { businessName, tagline, category, phone, whatsapp, images } = business || {}
+  
+  const displayBusinessName = lang === 'mr' ? (business?.businessName_mr || businessName) : businessName
+  const displayCategory = lang === 'mr' ? (business?.category_mr || category) : category
+  const displayTagline = lang === 'mr' ? (business?.tagline_mr || tagline) : tagline
 
   return (
     <footer className="bg-slate-950 text-white">
@@ -21,12 +25,12 @@ export default function Footer({ business }) {
                 />
               )}
               <div>
-                <p className="font-display text-lg font-bold">{businessName}</p>
-                {category && <p className="text-sm text-white/50">{category}</p>}
+                <p className="font-display text-lg font-bold">{displayBusinessName}</p>
+                {displayCategory && <p className="text-sm text-white/50">{displayCategory}</p>}
               </div>
             </div>
-            {tagline && (
-              <p className="mt-4 text-sm leading-relaxed text-white/60">{tagline}</p>
+            {displayTagline && (
+              <p className="mt-4 text-sm leading-relaxed text-white/60">{displayTagline}</p>
             )}
             <div className="mt-6">
               <SocialLinks business={business} />
@@ -52,7 +56,7 @@ export default function Footer({ business }) {
                 className="flex items-center gap-2 text-sm font-medium text-white/80 transition hover:text-white"
               >
                 <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
-                Chat on WhatsApp
+                {lang === 'mr' ? 'व्हॉट्सॲपवर चॅट करा' : 'Chat on WhatsApp'}
               </a>
             )}
           </div>
@@ -61,7 +65,7 @@ export default function Footer({ business }) {
         {/* Bottom bar */}
         <div className="mt-12 flex flex-col items-center gap-2 border-t border-white/10 pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
           <p className="text-xs text-white/45">
-            © {new Date().getFullYear()} {businessName}. All rights reserved.
+            © {new Date().getFullYear()} {displayBusinessName}. {lang === 'mr' ? 'सर्व हक्क राखीव.' : 'All rights reserved.'}
           </p>
           <p className="text-xs text-white/45">
             Powered by <span className="font-semibold text-white/70">Smart SMS</span> —{' '}
