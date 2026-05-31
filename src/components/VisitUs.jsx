@@ -4,6 +4,8 @@ import AddressBlock from './AddressBlock.jsx'
 import { ArrowUpRight } from 'lucide-react'
 
 export default function VisitUs({ business, lang }) {
+  if (business.hideVisitUs) return null
+
   const hasAddress = !!business.address
   const hasBranches = business.branches && business.branches.length > 0
   if (!hasAddress && !hasBranches) return null

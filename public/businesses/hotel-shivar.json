@@ -1,0 +1,44 @@
+{
+  "slug": "hotel-shivar",
+  "businessName": "Hotel Shivar",
+  "businessName_mr": "हॉटेल शिवार",
+  "ownerName": "Sumit More",
+  "ownerName_mr": "सुमित मोरे",
+  "category": "Restaurant",
+  "category_mr": "रेस्टॉरंट",
+  "tagline": "Hotel Shivar — Authentic Taste",
+  "tagline_mr": "हॉटेल शिवार — अस्सल चव",
+  "description": "Welcome to Hotel Shivar! Enjoy our delicious meals with your family and friends.",
+  "description_mr": "हॉटेल शिवारमध्ये आपले स्वागत आहे! आपल्या कुटुंब आणि मित्रांसह आमच्या चविष्ट जेवणाचा आनंद घ्या.",
+  "phone": "+918830428381",
+  "whatsapp": "+918830428381",
+  "email": "",
+  "address": "Hotel Shivar, Vita",
+  "address_mr": "हॉटेल शिवार, विटा",
+  "mapLink": "https://maps.app.goo.gl/LfUQdwDdVMUz3qsZ8?g_st=aw",
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/hotel_shivar_vita_?igsh=b3phamIyeDB0dXkx",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "11:00 AM - 11:00 PM",
+    "tue": "11:00 AM - 11:00 PM",
+    "wed": "11:00 AM - 11:00 PM",
+    "thu": "11:00 AM - 11:00 PM",
+    "fri": "11:00 AM - 11:00 PM",
+    "sat": "11:00 AM - 11:00 PM",
+    "sun": "11:00 AM - 11:00 PM"
+  },
+  "services": ["Veg & Non-Veg Food", "Family Section", "Parking Available"],
+  "services_mr": ["व्हेज आणि नॉन-व्हेज जेवण", "फॅमिली सेक्शन", "पार्किंग उपलब्ध"],
+  "images": {
+    "logo": "https://placehold.co/240x240/16a34a/white?text=HS",
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop",
+    "owner": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#16a34a"
+  }
+}

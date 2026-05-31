@@ -12,27 +12,46 @@ export default function QuickInfo({ business, lang }) {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 sm:gap-8">
 
           {/* Address Snippet */}
-          {displayAddress && (
-            <a 
-              href={business.hideActionButtons && business.branches ? '#visit' : mapLink} 
-              target={business.hideActionButtons && business.branches ? '_self' : '_blank'} 
-              rel="noopener noreferrer" 
-              className={`group flex items-center gap-4 ${
-                business.hideActionButtons && business.branches ? 'col-span-full justify-center flex-col text-center sm:flex-row sm:text-left' : ''
-              }`}
-            >
+          {business.hideActionButtons && business.branches ? (
+            <div className="col-span-full">
+              <div className="mb-6 flex items-center justify-center gap-2 sm:justify-start">
+                <MapPin className="h-5 w-5 text-accent" />
+                <h3 className="font-display text-lg font-bold text-slate-900">
+                  {lang === 'mr' ? 'आमच्या शाखा' : 'Our Branches'}
+                </h3>
+              </div>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {business.branches.map((branch, idx) => (
+                  <a
+                    key={idx}
+                    href={branch.mapLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-start gap-3 rounded-2xl border border-slate-100 p-4 transition hover:border-accent/30 hover:bg-accent/5 hover:shadow-sm"
+                  >
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-accent/10 group-hover:text-accent">
+                      <MapPin className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-bold text-slate-900 transition-colors group-hover:text-accent">
+                        {lang === 'mr' ? (branch.name_mr || branch.name) : branch.name}
+                      </p>
+                      <p className="mt-1 text-xs font-medium text-slate-500 line-clamp-3">
+                        {lang === 'mr' ? (branch.address_mr || branch.address) : branch.address}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ) : displayAddress && (
+            <a href={mapLink} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-accent/10 group-hover:text-accent">
                 <MapPin className="h-5 w-5" />
               </div>
-              <div className={business.hideActionButtons && business.branches ? '' : 'flex-1'}>
-                <p className="text-sm font-medium text-slate-500">
-                  {business.hideActionButtons && business.branches ? (lang === 'mr' ? 'आमच्या शाखा' : 'Our Branches') : (lang === 'mr' ? 'स्थान' : 'Location')}
-                </p>
-                <p className="text-sm font-semibold tracking-wide text-slate-900 line-clamp-2 transition group-hover:text-accent">
-                  {business.hideActionButtons && business.branches 
-                    ? (lang === 'mr' ? 'सर्व शाखांचे पत्ते पाहण्यासाठी येथे क्लिक करा' : 'Click here to view all branch addresses') 
-                    : displayAddress}
-                </p>
+              <div className="flex-1">
+                <p className="text-sm font-medium text-slate-500">{lang === 'mr' ? 'स्थान' : 'Location'}</p>
+                <p className="text-sm font-semibold tracking-wide text-slate-900 line-clamp-2 transition group-hover:text-accent">{displayAddress}</p>
               </div>
             </a>
           )}

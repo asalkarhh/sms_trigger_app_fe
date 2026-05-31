@@ -17,6 +17,7 @@
   "address_mr": "मायाणी रोड, बालाजी इलेक्ट्रॉनिक्सच्या बेसमेंटमध्ये, विटा",
   "mapLink": "https://www.google.com/maps/search/?api=1&query=Mayani+road%2C+basement+of+balaji+electronics%2C+vita",
   "hideActionButtons": true,
+  "hideVisitUs": true,
   "branches": [
     {
       "name": "Main Branch",
@@ -70,8 +71,24 @@
     "sat": "9:00 AM - 9:00 PM",
     "sun": "9:00 AM - 9:00 PM"
   },
-  "services": ["Household Materials", "Plastic Bhandi", "All Types of Materials"],
-  "services_mr": ["घरगुती साहित्य", "प्लास्टिकची भांडी", "सर्व प्रकारचे साहित्य"],
+  "services": [
+    "Household Materials",
+    "Plastic Bhandi",
+    "All Types of Materials",
+    "Steel, Aluminium, Copper & Brass Utensils",
+    "Samruddhi Unbreakable Plastic & Chairs",
+    "Glassware",
+    "Cleaning Mops, Phenyl & Others"
+  ],
+  "services_mr": [
+    "घरगुती साहित्य",
+    "प्लास्टिकची भांडी",
+    "सर्व प्रकारचे साहित्य",
+    "स्टील, ॲल्युमिनियम, तांबे आणि पितळेची भांडी",
+    "समृद्धी अनब्रेकेबल प्लास्टिक आणि खुर्च्या",
+    "काचेची भांडी",
+    "क्लीनिंग मॉप्स, फिनाईल आणि इतर"
+  ],
   "images": {
     "logo": "https://placehold.co/240x240/16a34a/white?text=SS",
     "banner": "https://5.imimg.com/data5/SELLER/Default/2024/3/403159872/HD/XG/QU/4364593/plastic-household-items-1000x1000.png"
