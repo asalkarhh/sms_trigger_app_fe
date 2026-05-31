@@ -113,6 +113,16 @@ const DEMOS = [
     accent: '#f97316',
     image: 'https://unsplash.com/photos/ivfp_yxZuYQ/download?w=1600',
   },
+  // 12. Varad Tours and Travels
+  {
+    slug: 'varad-tours-and-travels',
+    name: 'Varad Tours and Travels',
+    name_mr: 'वरद टूर्स अँड ट्रॅव्हल्स',
+    category: 'Tours & Travels',
+    category_mr: 'टूर्स आणि ट्रॅव्हल्स',
+    accent: '#0ea5e9',
+    image: '/varad-tours.jpg',
+  },
 ]
 
 export default function Home() {
