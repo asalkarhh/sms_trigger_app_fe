@@ -51,13 +51,17 @@
   "social": {
     "website": "",
     "instagram": "https://www.instagram.com/vishwakarmaenterprises_2025?igsh=cnNybzZudjNoZTVm",
+    "instagramText": "Follow on Instagram",
+    "instagramText_mr": "इन्स्टाग्रामवर फॉलो करा",
     "facebook": "",
     "youtube": ""
   },
+  "showInstagramBanner": true,
 
   "images": {
     "logo": "https://placehold.co/240x240/eab308/white?text=VE",
-    "banner": "/src/assets/Vishwakarmabg.jpg"
+    "banner": "/src/assets/Vishwakarmabg.jpg",
+    "owner": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
   },
 
   "theme": {
