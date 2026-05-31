@@ -1,0 +1,52 @@
+{
+  "slug": "rk-graphics-cinematic",
+  "businessName": "RK Graphics & Cinematic",
+  "businessName_mr": "आर के ग्राफिक्स & सिनेमॅटिक",
+  "ownerName": "Shahnavaj Pirzade",
+  "ownerName_mr": "शाहनवाज पिरजादे",
+  "category": "Graphic Design & Cinematic",
+  "category_mr": "ग्राफिक डिझाइन आणि सिनेमॅटिक",
+  "tagline": "Premium Graphic Design & Cinematic Services",
+  "tagline_mr": "दर्जेदार ग्राफिक डिझाइन आणि सिनेमॅटिक सेवा",
+  "description": "We provide high-quality graphic design (3D logos, etc.) and cinematic video shooting and editing services for your business. Also, we do effective paid promotions for your business on our Instagram page 'Explore Bhoom-Paranda-Washi'.",
+  "description_mr": "आम्ही आपल्या व्यवसायासाठी दर्जेदार ग्राफिक डिझाइन (3D लोगो इ.) आणि सिनेमॅटिक व्हिडिओ शूटिंग व एडिटिंग सेवा देतो. तसेच, आमचे Instagram पेज 'एक्सप्लोर भूम-परंडा-वाशी' वर आम्ही तुमच्या व्यवसायाची प्रभावी पेड प्रमोशन देखील करतो.",
+  "phone": "+919689163885",
+  "alternatePhone": "+919075277302",
+  "whatsapp": "+919689163885",
+  "email": "",
+  "address": "",
+  "address_mr": "",
+  "mapLink": "",
+  "hideVisitUs": true,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/shahnavaj_rk_7007?igsh=MXdteXh1dmo2b3hhYg==",
+    "instagramText": "Personal Instagram",
+    "instagramText_mr": "वैयक्तिक इन्स्टाग्राम",
+    "alternateInstagram": "https://www.instagram.com/explore_bhoom_paranda_washi?igsh=MXYxa2w4eWpiYXMwaQ==",
+    "alternateInstagramText": "For Collab Contact",
+    "alternateInstagramText_mr": "कोलॅबसाठी संपर्क",
+    "facebook": "",
+    "youtube": ""
+  },
+  "showInstagramBanner": true,
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": ["Graphic Design", "3D Logos", "Cinematic Video Shooting", "Video Editing", "Instagram Paid Promotions"],
+  "services_mr": ["ग्राफिक डिझाइन", "3D लोगो", "सिनेमॅटिक व्हिडिओ शूटिंग", "व्हिडिओ एडिटिंग", "इन्स्टाग्राम पेड प्रमोशन"],
+  "images": {
+    "logo": "https://placehold.co/240x240/8b5cf6/white?text=RK",
+    "banner": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1600&auto=format&fit=crop",
+    "owner": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#8b5cf6"
+  }
+}

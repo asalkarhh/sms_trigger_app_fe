@@ -12,6 +12,7 @@ import PayButton from '../components/PayButton.jsx'
 import Footer from '../components/Footer.jsx'
 import MobileActionBar from '../components/MobileActionBar.jsx'
 import { hexToRgbChannels } from '../utils/color.js'
+import { Instagram } from 'lucide-react'
 
 const STATUS = { LOADING: 'loading', READY: 'ready', NOT_FOUND: 'not_found' }
 
@@ -93,6 +94,35 @@ export default function BusinessPage() {
 
       <About business={business} lang={lang} />
       <Services business={business} lang={lang} />
+      
+      {/* Custom Instagram Banner (Shows Below Services) */}
+      {business.showInstagramBanner && business.social?.instagram && (
+        <div className="container-page pb-16 sm:pb-24">
+          <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 p-[2px] shadow-lg">
+            <div className="rounded-[1.4rem] bg-white px-6 py-10 text-center sm:px-10">
+              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white shadow-md">
+                <Instagram className="h-8 w-8" />
+              </div>
+              <h3 className="mb-8 font-display text-2xl font-bold text-slate-900 sm:text-3xl">
+                {lang === 'mr' ? 'आमच्याशी इन्स्टाग्रामवर कनेक्ट व्हा' : 'Connect with us on Instagram'}
+              </h3>
+              <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a href={business.social.instagram} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-4 text-base font-semibold text-slate-700 transition hover:border-pink-200 hover:bg-pink-50 hover:text-pink-600 sm:w-auto">
+                  <Instagram className="h-5 w-5" />
+                  {lang === 'mr' ? (business.social.instagramText_mr || business.social.instagramText) : business.social.instagramText}
+                </a>
+                {business.social.alternateInstagram && (
+                  <a href={business.social.alternateInstagram} target="_blank" rel="noopener noreferrer" className="flex w-full items-center justify-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-4 text-base font-semibold text-slate-700 transition hover:border-purple-200 hover:bg-purple-50 hover:text-purple-600 sm:w-auto">
+                    <Instagram className="h-5 w-5" />
+                    {lang === 'mr' ? (business.social.alternateInstagramText_mr || business.social.alternateInstagramText) : business.social.alternateInstagramText}
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <Gallery business={business} lang={lang} />
       <VisitUs business={business} lang={lang} />
       <PayButton business={business} lang={lang} />

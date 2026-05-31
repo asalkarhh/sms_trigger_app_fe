@@ -93,6 +93,16 @@ const DEMOS = [
     accent: '#16a34a',
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop',
   },
+  // 10. RK Graphics & Cinematic
+  {
+    slug: 'rk-graphics-cinematic',
+    name: 'RK Graphics & Cinematic',
+    name_mr: 'आर के ग्राफिक्स & सिनेमॅटिक',
+    category: 'Graphic Design',
+    category_mr: 'ग्राफिक डिझाइन',
+    accent: '#8b5cf6',
+    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {
