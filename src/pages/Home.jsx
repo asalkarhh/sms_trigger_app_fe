@@ -103,6 +103,16 @@ const DEMOS = [
     accent: '#8b5cf6',
     image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1600&auto=format&fit=crop',
   },
+  // 11. Morya Bazar
+  {
+    slug: 'morya-bazar',
+    name: 'Morya Bazar',
+    name_mr: 'मोरया बाजार',
+    category: 'Super Market',
+    category_mr: 'सुपर मार्केट',
+    accent: '#f97316',
+    image: 'https://unsplash.com/photos/ivfp_yxZuYQ/download?w=1600',
+  },
 ]
 
 export default function Home() {

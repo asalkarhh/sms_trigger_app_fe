@@ -1,0 +1,44 @@
+{
+  "slug": "morya-bazar",
+  "businessName": "Morya Bazar",
+  "businessName_mr": "मोरया बाजार",
+  "ownerName": "Ajit Shinde",
+  "ownerName_mr": "अजित शिंदे",
+  "category": "Super Market",
+  "category_mr": "सुपर मार्केट",
+  "tagline": "Morya Bazar — Quality you can trust",
+  "tagline_mr": "मोरया बाजार — तुमचा विश्वास, आमची गुणवत्ता",
+  "description": "Your one-stop destination for all daily needs, groceries, and household items. We provide the best quality products at reasonable prices.",
+  "description_mr": "तुमच्या रोजच्या गरजा, किराणा आणि घरगुती साहित्यासाठी एकच ठिकाण. आम्ही रास्त दरात उत्तम दर्जाची उत्पादने देतो.",
+  "phone": "+917720982143",
+  "whatsapp": "+917720982143",
+  "email": "",
+  "address": "Morya Bazar",
+  "address_mr": "मोरया बाजार",
+  "mapLink": "https://maps.app.goo.gl/CytCyT3JNLAQbuWEA?g_st=aw",
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": ["Groceries", "Household Items", "Daily Needs", "Fresh Produce"],
+  "services_mr": ["किराणा", "घरगुती साहित्य", "रोजच्या गरजा", "ताजा माल"],
+  "images": {
+    "logo": "https://placehold.co/240x240/f97316/white?text=MB",
+    "banner": "https://unsplash.com/photos/ivfp_yxZuYQ/download?w=1600",
+    "owner": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#f97316"
+  }
+}
