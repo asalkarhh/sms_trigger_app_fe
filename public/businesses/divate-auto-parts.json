@@ -1,0 +1,51 @@
+{
+  "slug": "divate-auto-parts",
+  "businessName": "Divate Auto Parts",
+  "businessName_mr": "दिवाटे ऑटो पार्ट्स",
+  "ownerName": "AMIT ANIL DIVATE",
+  "ownerName_mr": "अमित अनिल दिवाटे",
+  "category": "Auto Parts",
+  "category_mr": "ऑटो पार्ट्स",
+  "tagline": "(दिवाटे ऑटो पार्ट्स) — Quality Auto Parts & Accessories",
+  "tagline_mr": "(दिवाटे ऑटो पार्ट्स) — उत्कृष्ट दर्जाचे ऑटो पार्ट्स आणि ॲक्सेसरीज",
+  "description": "Your trusted source for all auto parts and accessories. We sell two-wheeler parts, and each and every part comes with a guarantee.",
+  "description_mr": "सर्व ऑटो पार्ट्स आणि ॲक्सेसरीजसाठी तुमचे विश्वसनीय ठिकाण. आम्ही दुचाकी वाहनांचे भाग विकतो आणि प्रत्येक पार्ट गॅरंटीसह येतो.",
+
+  "phone": "+919028481463",
+  "whatsapp": "+919028481463",
+  "email": "",
+
+  "address": "Divate Auto Parts, Vita",
+  "address_mr": "दिवाटे ऑटो पार्ट्स, विटा",
+  "mapLink": "https://maps.app.goo.gl/UpH3HqkeqqyPpEfE9",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Auto Parts",
+    "Accessories",
+    "Spares"
+  ],
+  "services_mr": [
+    "ऑटो पार्ट्स",
+    "ॲक्सेसरीज",
+    "स्पेयर पार्ट्स"
+  ],
+
+  "images": {
+    "logo": "https://placehold.co/240x240/2563eb/white?text=DA",
+    "banner": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1600&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#2563eb"
+  }
+}

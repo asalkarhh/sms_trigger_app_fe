@@ -63,6 +63,16 @@ const DEMOS = [
     accent: '#eab308',
     image: 'https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize',
   },
+  // 7. Divate Auto Parts
+  {
+    slug: 'divate-auto-parts',
+    name: 'Divate Auto Parts',
+    name_mr: 'दिवाटे ऑटो पार्ट्स',
+    category: 'Auto Parts',
+    category_mr: 'ऑटो पार्ट्स',
+    accent: '#2563eb',
+    image: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {
