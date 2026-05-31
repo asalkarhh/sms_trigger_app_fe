@@ -86,16 +86,20 @@ export default function QuickInfo({ business, lang }) {
           )}
 
           {/* Instagram Snippet */}
-          {business.social?.instagram && !business.hideActionButtons && (
+          {business.showInstagramInQuickInfo && business.social?.instagram && !business.hideActionButtons && (
             <div className="group flex items-center gap-4 overflow-hidden">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors group-hover:bg-[#E1306C]/10 group-hover:text-[#E1306C]">
                 <Instagram className="h-6 w-6" />
               </div>
               <div className="flex-1 overflow-hidden">
                 <p className="text-sm font-medium text-slate-500">{lang === 'mr' ? 'इन्स्टाग्राम' : 'Instagram'}</p>
-                <a href={business.social.instagram} target="_blank" rel="noopener noreferrer" className="block truncate text-base font-semibold tracking-wide text-slate-900 transition hover:text-[#E1306C]">{business.social.instagramText || (lang === 'mr' ? 'फॉलो करा' : 'Follow Us')}</a>
+                <a href={business.social.instagram} target="_blank" rel="noopener noreferrer" className="block truncate text-base font-semibold tracking-wide text-slate-900 transition hover:text-[#E1306C]">
+                  {lang === 'mr' ? (business.social.instagramText_mr || business.social.instagramText || 'फॉलो करा') : (business.social.instagramText || 'Follow Us')}
+                </a>
                 {business.social?.alternateInstagram && (
-                  <a href={business.social.alternateInstagram} target="_blank" rel="noopener noreferrer" className="block truncate text-sm font-medium tracking-wide text-slate-500 transition hover:text-[#E1306C]">{business.social.alternateInstagramText || (lang === 'mr' ? 'दुसरे पेज' : 'Alternate Page')}</a>
+                  <a href={business.social.alternateInstagram} target="_blank" rel="noopener noreferrer" className="block truncate text-sm font-medium tracking-wide text-slate-500 transition hover:text-[#E1306C]">
+                    {lang === 'mr' ? (business.social.alternateInstagramText_mr || business.social.alternateInstagramText || 'दुसरे पेज') : (business.social.alternateInstagramText || 'Alternate Page')}
+                  </a>
                 )}
               </div>
             </div>

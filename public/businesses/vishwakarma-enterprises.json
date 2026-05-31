@@ -4,12 +4,12 @@
   "businessName_mr": "विश्वकर्मा एंटरप्रायजेस",
   "ownerName": "Yogesh Sutar",
   "ownerName_mr": "योगेश सुतार",
-  "category": "Fabrication & Engineering",
-  "category_mr": "फॅब्रिकेशन आणि इंजिनिअरिंग",
-  "tagline": "Quality engineering and fabrication services",
-  "tagline_mr": "उत्कृष्ट इंजिनिअरिंग आणि फॅब्रिकेशन सेवा",
-  "description": "Welcome to Vishwakarma Enterprises. We provide expert engineering, fabrication, and related hardware solutions with a focus on durability and quality craftsmanship.",
-  "description_mr": "विश्वकर्मा एंटरप्रायजेसमध्ये आपले स्वागत आहे. आम्ही टिकाऊपणा आणि दर्जेदार कारागिरीवर लक्ष केंद्रित करून तज्ञ अभियांत्रिकी, फॅब्रिकेशन आणि संबंधित हार्डवेअर सोल्यूशन्स प्रदान करतो.",
+  "category": "Agriculture & Garden Tools",
+  "category_mr": "शेती आणि गार्डन टूल्स",
+  "tagline": "Sales and services",
+  "tagline_mr": "सेल्स आणि सर्विसेस",
+  "description": "Welcome to Vishwakarma Enterprises! We offer a wide range of branded chain saws, brush cutters (grass cutters), agricultural implements, power tillers, power weeders, pesticide spraying pumps, backpack blowers, garden tools, hand tools, pressure washers, vacuum cleaners, lawn mowers, battery-operated gardening tools, earth augers, sprayers, and other equipment at reasonable prices.",
+  "description_mr": "विश्वकर्मा एंटरप्रायजेसमध्ये आपले स्वागत आहे! आमच्याकडे सर्व ब्रॅण्डेड कंपण्यांचे चैन-साॅ, ब्रशकटर (ग्रासकटर), शेतीविषयक अवजारे, पॉवर टिलर, पाॅवर वीडर, औषध फवारणी पंप, बॅकपॅक ब्लोअर, गार्डन टूल्स, हॅन्ड टूल्स, प्रेशर वाॅशर, व्यॅकूम क्लीनर, लॉन मुव्हर, बॅटरी ऑपरेटेड गार्डनींग टूल्स, अर्थ ऑगर, स्प्रेअर इ साहीत्य योग्य दरात मिळतील.",
 
   "phone": "+918857828601",
   "whatsapp": "+918857828601",
@@ -30,16 +30,22 @@
   },
 
   "services": [
-    "Fabrication Works",
-    "Welding Services",
-    "Engineering Solutions",
-    "Custom Metal Works"
+    "Chain Saws & Brush Cutters",
+    "Agricultural Implements",
+    "Power Tillers & Weeders",
+    "Spraying Pumps & Blowers",
+    "Garden & Hand Tools",
+    "Pressure Washers & Vacuum Cleaners",
+    "Lawn Mowers & Earth Augers"
   ],
   "services_mr": [
-    "फॅब्रिकेशन वर्क्स",
-    "वेल्डिंग सेवा",
-    "इंजिनिअरिंग सोल्यूशन्स",
-    "कस्टम मेटल वर्क्स"
+    "चैन-साॅ आणि ब्रशकटर",
+    "शेतीविषयक अवजारे",
+    "पॉवर टिलर आणि पाॅवर वीडर",
+    "औषध फवारणी पंप आणि ब्लोअर",
+    "गार्डन आणि हॅन्ड टूल्स",
+    "प्रेशर वाॅशर आणि व्यॅकूम क्लीनर",
+    "लॉन मुव्हर आणि अर्थ ऑगर"
   ],
 
   "social": {
@@ -51,7 +57,7 @@
 
   "images": {
     "logo": "https://placehold.co/240x240/eab308/white?text=VE",
-    "banner": "https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize"
+    "banner": "/src/assets/Vishwakarmabg.jpg"
   },
 
   "theme": {

@@ -2,6 +2,9 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink } from 'lucide-react'
 
+// Import local image for Vishwakarma
+import vishwakarmaBg from '../assets/Vishwakarmabg.jpg'
+
 const DEMOS = [
   // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
   {
@@ -58,10 +61,10 @@ const DEMOS = [
     slug: 'vishwakarma-enterprises',
     name: 'Vishwakarma Enterprises',
     name_mr: 'विश्वकर्मा एंटरप्रायजेस',
-    category: 'Fabrication & Engineering',
-    category_mr: 'फॅब्रिकेशन आणि इंजिनिअरिंग',
+    category: 'Agriculture & Garden Tools',
+    category_mr: 'शेती आणि गार्डन टूल्स',
     accent: '#eab308',
-    image: 'https://images.openai.com/static-rsc-4/x1ROyvDnTaTBts07szi147gEOpXWGLk3jCU5A5GgdAtJXboELM7a0Hb4j8Uw8z4m1ZVXu0hITANoRKESC-xf7EU7LmPJpLds2iD6KoWc0NbzD0eHl5tzHmokuqFiXLH5cTWn1HMFVZuRLAmESYXueKh05cROJedu_rUtXig7LQdLcJphIOtdJD5XaM_xO0IJ?purpose=fullsize',
+    image: vishwakarmaBg,
   },
   // 7. Divate Auto Parts
   {

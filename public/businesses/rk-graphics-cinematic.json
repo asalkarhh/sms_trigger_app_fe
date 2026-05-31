@@ -29,6 +29,7 @@
     "facebook": "",
     "youtube": ""
   },
+  "showInstagramInQuickInfo": true,
   "showInstagramBanner": true,
   "hours": {
     "mon": "9:00 AM - 9:00 PM",
