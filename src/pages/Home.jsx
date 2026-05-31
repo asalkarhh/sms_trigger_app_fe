@@ -81,7 +81,7 @@ const DEMOS = [
     category: 'Super Shoppy',
     category_mr: 'सुपर शॉपी',
     accent: '#16a34a',
-    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1600&auto=format&fit=crop',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2024/3/403159872/HD/XG/QU/4364593/plastic-household-items-1000x1000.png',
   },
 ]
 
