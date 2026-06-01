@@ -1,0 +1,56 @@
+{
+  "slug": "morya-catering-service",
+  "businessName": "Morya Catering Service",
+  "businessName_mr": "मोरया केटरिंग सर्व्हिस",
+  "ownerName": "Shashikant Varude \nSiddharth Varude ",
+  "ownerName_mr": "शशिकांत वरुडे \nसिद्धार्थ वरुडे ",
+  "category": "Catering Service",
+  "category_mr": "केटरिंग सर्व्हिस",
+  "tagline": "Delicious food, excellent service",
+  "tagline_mr": "स्वादिष्ट जेवण, उत्कृष्ट सेवा",
+  "description": "Orders are accepted on a contract basis. We provide high-quality pure vegetarian food with hygiene and VIP service for all your special occasions.",
+  "description_mr": "कॉन्ट्रॅक्ट बेस वरती ऑर्डर स्वीकारल्या जातील. आम्ही तुमच्या सर्व खास प्रसंगांसाठी स्वच्छता आणि VIP सेवेसह उच्च-गुणवत्तेचे शुद्ध शाकाहारी जेवण पुरवतो.",
+  "phone": "+918421888456",
+  "alternatePhone": "+919513156196",
+  "whatsapp": "+919513156196",
+  "email": "",
+  "address": "Morya Catering Service, Vita",
+  "address_mr": "मोरया केटरिंग सर्व्हिस, विटा",
+  "mapLink": "https://maps.app.goo.gl/5jesV36XHPTw3k9W8",
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": [
+    "Wedding Ceremony",
+    "Reception",
+    "Housewarming / Vastu Shanti",
+    "Engagement",
+    "Corporate Events",
+    "Pure Veg Food",
+    "VIP Service",
+    "Hygiene & Quality Assured"
+  ],
+  "services_mr": [
+    "लग्न समारंभ",
+    "रिसेप्शन",
+    "गृहप्रवेश / वास्तुशांती",
+    "साखरपुडा",
+    "कॉर्पोरेट इव्हेंट",
+    "शुद्ध शाकाहारी जेवण",
+    "VIP SERVICE उपलब्ध",
+    "स्वच्छता आणि गुणवत्ता हमी"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/dc2626/white?text=MC",
+    "banner": "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#dc2626"
+  }
+}

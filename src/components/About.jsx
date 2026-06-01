@@ -44,7 +44,7 @@ export default function About({ business, lang }) {
                     </div>
                     <div>
                       <p className="text-xs font-bold uppercase tracking-wider text-slate-400">{lang === 'mr' ? 'मालक' : 'Owner'}</p>
-                      <p className="text-sm font-semibold text-slate-900">{ownerName}</p>
+                      <p className="whitespace-pre-wrap text-sm font-semibold text-slate-900">{ownerName}</p>
                     </div>
                   </div>
                 )}

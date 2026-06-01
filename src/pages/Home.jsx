@@ -123,6 +123,17 @@ const DEMOS = [
     accent: '#0ea5e9',
     image: '/varad-tours.jpg',
   },
+  //13. morya-catering-service
+  {
+  slug: "morya-catering-service",
+  name: "Morya Catering Service",
+  name_mr: "मोरया केटरिंग सर्व्हिस",
+  category: "Catering Service",
+  category_mr: "केटरिंग सर्व्हिस",
+  accent: "#dc2626",
+  image: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1600&auto=format&fit=crop"
+},
+
 ]
 
 export default function Home() {
