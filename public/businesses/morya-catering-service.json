@@ -47,6 +47,12 @@
     "VIP SERVICE उपलब्ध",
     "स्वच्छता आणि गुणवत्ता हमी"
   ],
+  "showInstagramBanner": false,
+  "social": {
+    "instagram": "https://www.instagram.com/ssidharth_s_varude95?igsh=MXFiaTJpMHFqYm5mNw==",
+    "instagramText": "Siddharth Varude",
+    "instagramText_mr": "सिद्धार्थ वरुडे"
+  },
   "images": {
     "logo": "https://placehold.co/240x240/dc2626/white?text=MC",
     "banner": "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1600&auto=format&fit=crop"
