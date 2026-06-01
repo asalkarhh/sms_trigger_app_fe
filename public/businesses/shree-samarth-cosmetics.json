@@ -1,0 +1,59 @@
+{
+  "slug": "shree-samarth-cosmetics",
+  "businessName": "Shree Samarth Cosmetics",
+  "businessName_mr": "श्री समर्थ कॉस्मेटिक्स",
+  "ownerName": "Madhav Sambhaji Gavali",
+  "ownerName_mr": "माधव संभाजी गवळी",
+  "category": "Cosmetics",
+  "category_mr": "कॉस्मेटिक्स",
+  "tagline": "Beauty & Skin Care Products",
+  "tagline_mr": "सौंदर्य आणि त्वचा निगा उत्पादने",
+  "description": "We offer a wide range of high-quality beauty, hair care, and skin care products. Available for both wholesale and retail customers at the best prices. Visit us for all your cosmetics and personal care needs!",
+  "description_mr": "आम्ही उच्च दर्जाची सौंदर्य, हेअर केअर आणि त्वचा निगा उत्पादने उपलब्ध करून देतो. घाऊक आणि किरकोळ विक्रीसाठी उत्तम दरात उपलब्ध. तुमच्या सर्व वैयक्तिक निगेच्या गरजांसाठी नक्की भेट द्या!",
+  "phone": "+919112828213",
+  "alternatePhone": "",
+  "whatsapp": "+919112828213",
+  "email": "shreesamarth4433@gmail.com",
+  "address": "Shree Samarth Cosmetics",
+  "address_mr": "श्री समर्थ कॉस्मेटिक्स",
+  "mapLink": "https://maps.app.goo.gl/YFwe7wSrbUdgMcBSA",
+  "hideVisitUs": false,
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": [
+    "Beauty Products",
+    "Skin Care Products",
+    "Wholesaler",
+    "Retailer",
+    "Hair Care Products",
+    "Personal Care Items"
+  ],
+  "services_mr": [
+    "सौंदर्य प्रसाधने",
+    "त्वचा निगा उत्पादने",
+    "घाऊक विक्रेता",
+    "किरकोळ विक्रेता",
+    "केसांची निगा उत्पादने",
+    "वैयक्तिक निगा उत्पादने"
+  ],
+  "showInstagramBanner": false,
+  "social": {
+    "mail": "mailto:shreesamarth4433@gmail.com",
+    "mailText": "Madhav Sambhaji Gavali",
+    "mailText_mr": "माधव संभाजी गवळी"
+  },
+  "images": {
+    "logo": "https://placehold.co/240x240/ec4899/white?text=SSC",
+    "banner": "https://img.magnific.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  "theme": {
+    "accentColor": "#ec4899"
+  }
+}

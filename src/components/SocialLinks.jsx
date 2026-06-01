@@ -1,10 +1,11 @@
-import { Globe, Instagram, Facebook, Youtube } from 'lucide-react'
+import { Globe, Instagram, Facebook, Youtube, Mail } from 'lucide-react'
 
 const PLATFORMS = [
   { key: 'website', icon: Globe, label: 'Website' },
   { key: 'instagram', icon: Instagram, label: 'Instagram' },
   { key: 'facebook', icon: Facebook, label: 'Facebook' },
   { key: 'youtube', icon: Youtube, label: 'YouTube' },
+  { key: 'mail', icon: Mail, label: 'Email' },
 ]
 
 // Renders only platforms with a non-empty URL. Styled for a dark surface.

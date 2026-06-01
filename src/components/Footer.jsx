@@ -1,4 +1,4 @@
-import { Phone } from 'lucide-react'
+import { Phone, Mail } from 'lucide-react'
 import SocialLinks from './SocialLinks.jsx'
 import { telLink, whatsappLink } from '../utils/links.js'
 import WhatsAppIcon from './WhatsAppIcon.jsx'
@@ -57,6 +57,15 @@ export default function Footer({ business, lang }) {
               >
                 <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
                 {lang === 'mr' ? 'व्हॉट्सॲपवर चॅट करा' : 'Chat on WhatsApp'}
+              </a>
+            )}
+            {business?.slug === 'shree-samarth-cosmetics' && business?.email && (
+              <a
+                href={`mailto:${business.email}`}
+                className="flex items-center gap-2 text-sm font-medium text-white/80 transition hover:text-white"
+              >
+                <Mail className="h-4 w-4 text-accent" strokeWidth={2.2} />
+                {business.email}
               </a>
             )}
           </div>

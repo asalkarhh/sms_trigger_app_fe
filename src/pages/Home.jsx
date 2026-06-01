@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink } from 'lucide-react'
+import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink, Mail } from 'lucide-react'
 
 const DEMOS = [
   // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
@@ -133,10 +133,24 @@ const DEMOS = [
   accent: "#dc2626",
   image: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1600&auto=format&fit=crop"
 },
-
+  // 14. Shree Samarth Cosmetics
+  {
+    slug: 'shree-samarth-cosmetics',
+    name: 'Shree Samarth Cosmetics',
+    name_mr: 'श्री समर्थ कॉस्मेटिक्स',
+    category: 'Cosmetics',
+    category_mr: 'कॉस्मेटिक्स',
+    tagline: 'Beauty & Skin Care Products',
+    tagline_mr: 'सौंदर्य आणि त्वचा निगा उत्पादने',
+    accent: '#ec4899',
+    image: 'https://img.magnific.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?semt=ais_hybrid&w=740&q=80',
+    email: 'shreesamarth4433@gmail.com',
+  },
 ]
 
 export default function Home() {
+  const [lang, setLang] = useState('mr')
+
   useEffect(() => {
     document.title = 'Smart SMS — Business Pages'
   }, [])
@@ -153,17 +167,23 @@ export default function Home() {
               Smart SMS
             </span>
             <span className="hidden text-sm font-medium text-white/40 sm:inline-block">
-              by Asalkar.in
+              {lang === 'mr' ? 'Asalkar.in द्वारा' : 'by Asalkar.in'}
             </span>
           </div>
           <div className="flex items-center gap-4">
+            <button
+              onClick={() => setLang(lang === 'en' ? 'mr' : 'en')}
+              className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white transition hover:bg-white/20"
+            >
+              {lang === 'en' ? 'मराठी' : 'English'}
+            </button>
             <a
               href="https://www.asalkar.in"
               target="_blank"
               rel="noopener noreferrer"
               className="group hidden items-center gap-1.5 text-sm font-semibold text-white/70 transition hover:text-white sm:flex"
             >
-              Visit Main Site
+              {lang === 'mr' ? 'मुख्य साइटला भेट द्या' : 'Visit Main Site'}
               <ExternalLink className="h-4 w-4 opacity-70 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
           </div>
@@ -177,15 +197,19 @@ export default function Home() {
           <div className="mx-auto max-w-2xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/70">
               <Sparkles className="h-3.5 w-3.5" />
-              Smart SMS · Business Pages
+              {lang === 'mr' ? 'स्मार्ट SMS · बिझनेस पेजेस' : 'Smart SMS · Business Pages'}
             </div>
             <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">
-              A premium page for every business.
+              {lang === 'mr' ? 'प्रत्येक व्यवसायासाठी एक प्रीमियम पेज.' : 'A premium page for every business.'}
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-white/65">
-              Every customer gets a beautiful, mobile-ready landing page at{' '}
-              <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
-              {' '}— opened straight from an auto-reply SMS.
+              {lang === 'mr' ? (
+                <>प्रत्येक ग्राहकाला <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span> वर एक सुंदर, मोबाईल-रेडी लँडिंग पेज मिळते — जे थेट ऑटो-रिप्लाय SMS मधून उघडते.</>
+              ) : (
+                <>Every customer gets a beautiful, mobile-ready landing page at{' '}
+                <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
+                {' '}— opened straight from an auto-reply SMS.</>
+              )}
             </p>
           </div>
 
@@ -217,13 +241,24 @@ export default function Home() {
                     <MessageSquareText className="h-6 w-6" />
                   </span>
                   <p className="mt-5 font-display text-xl font-bold">
-                    {demo.name}
+                    {lang === 'mr' ? (demo.name_mr || demo.name) : demo.name}
                   </p>
                   <p className="mt-1 text-sm text-white/50">
-                    {demo.category} · /{demo.slug}
+                    {lang === 'mr' ? (demo.category_mr || demo.category) : demo.category} · /{demo.slug}
                   </p>
+                  {demo.tagline && (
+                    <p className="mt-1.5 text-sm font-medium text-white/60">
+                      {lang === 'mr' ? (demo.tagline_mr || demo.tagline) : demo.tagline}
+                    </p>
+                  )}
+                  {demo.email && (
+                    <div className="mt-2.5 flex items-center gap-1.5 text-sm text-white/60">
+                      <Mail className="h-4 w-4" />
+                      {demo.email}
+                    </div>
+                  )}
                   <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-white/80">
-                    View live page
+                    {lang === 'mr' ? 'थेट पेज पहा' : 'View live page'}
                     <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </span>
                 </div>
@@ -231,12 +266,18 @@ export default function Home() {
             ))}
           </div>
 
-          <p className="mt-16 text-center text-xs text-white/40">
-            Powered by Smart SMS —  ·{' '}
-            <a href="https://www.asalkar.in" className="text-white/60 hover:underline">
-              Asalkar Techworks Pvt Ltd
+          <div className="mt-16 flex flex-col items-center justify-center gap-2 text-xs text-white/40">
+            <p>
+              {lang === 'mr' ? 'स्मार्ट SMS द्वारा समर्थित —  · ' : 'Powered by Smart SMS —  · '}
+              <a href="https://www.asalkar.in" className="text-white/60 hover:underline">
+                {lang === 'mr' ? 'असलकर टेकवर्क्स प्रायव्हेट लिमिटेड' : 'Asalkar Techworks Pvt Ltd'}
+              </a>
+            </p>
+            <a href="mailto:info@asalkar.in" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
+              <Mail className="h-3.5 w-3.5" />
+              info@asalkar.in
             </a>
-          </p>
+          </div>
         </div>
       </div>
     </main>
