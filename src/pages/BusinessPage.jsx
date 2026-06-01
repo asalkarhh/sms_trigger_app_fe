@@ -15,6 +15,7 @@ import { hexToRgbChannels } from '../utils/color.js'
 import { Instagram } from 'lucide-react'
 import { Analytics } from '@vercel/analytics/react'
 
+
 const STATUS = { LOADING: 'loading', READY: 'ready', NOT_FOUND: 'not_found' }
 
 function setMetaDescription(content) {
