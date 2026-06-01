@@ -220,6 +220,15 @@ export default function Home() {
               <Link
                 key={demo.slug}
                 to={`/${demo.slug}`}
+                onClick={() => {
+                  if (typeof window.gtag !== 'undefined') {
+                    window.gtag('event', 'click_business_grid', {
+                      'business_name': demo.name,
+                      'business_slug': demo.slug,
+                      'business_category': demo.category
+                    })
+                  }
+                }}
                 className="group relative overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-7 transition hover:-translate-y-1 hover:border-white/20"
               >
                 {/* Optional Background Image */}
