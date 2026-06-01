@@ -13,6 +13,7 @@ import Footer from '../components/Footer.jsx'
 import MobileActionBar from '../components/MobileActionBar.jsx'
 import { hexToRgbChannels } from '../utils/color.js'
 import { Instagram } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 
 const STATUS = { LOADING: 'loading', READY: 'ready', NOT_FOUND: 'not_found' }
 
@@ -132,6 +133,7 @@ export default function BusinessPage() {
       {/* Spacer so the fixed mobile bar never covers footer content */}
       <div className="h-20 sm:hidden" />
       <MobileActionBar business={business} lang={lang} />
+      <Analytics />
     </div>
   )
 }

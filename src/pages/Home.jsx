@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MessageSquareText, ArrowUpRight, Sparkles, ExternalLink, Mail } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 
 const DEMOS = [
   // 1. Asalkar Healthy Hub (Organic Oil Manufacturer)
@@ -280,6 +281,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Analytics />
     </main>
   )
 }
