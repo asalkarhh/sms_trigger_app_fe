@@ -17,6 +17,7 @@
   "address": "Morya Catering Service, Vita",
   "address_mr": "मोरया केटरिंग सर्व्हिस, विटा",
   "mapLink": "https://maps.app.goo.gl/5jesV36XHPTw3k9W8",
+  "hideVisitUs": true,
   "hours": {
     "mon": "9:00 AM - 9:00 PM",
     "tue": "9:00 AM - 9:00 PM",
