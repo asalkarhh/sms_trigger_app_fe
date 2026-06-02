@@ -159,11 +159,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
       {/* Global Header connecting to the parent company */}
-      <header className="absolute inset-x-0 top-0 z-50 border-b border-white/10 bg-white/5 backdrop-blur-xl">
+      <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-white/5 backdrop-blur-xl">
         <nav className="container-page flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            {/* You can replace this Sparkles icon with an actual Asalkar logo image */}
-            <Sparkles className="h-5 w-5 text-indigo-400" />
+            <img src="/logo.png" alt="Smart SMS Logo" className="h-6 w-auto object-contain" />
             <span className="font-display text-lg font-bold tracking-tight text-white">
               Smart SMS
             </span>
@@ -172,6 +171,12 @@ export default function Home() {
             </span>
           </div>
           <div className="flex items-center gap-4">
+            <Link
+              to="/download-app"
+              className="rounded-full bg-indigo-600 px-4 py-1.5 text-xs font-semibold text-white transition hover:bg-indigo-500 sm:px-5 sm:text-sm"
+            >
+              Download App
+            </Link>
             <button
               onClick={() => setLang(lang === 'en' ? 'mr' : 'en')}
               className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white transition hover:bg-white/20"
@@ -197,7 +202,7 @@ export default function Home() {
         <div className="container-page relative pb-20 pt-32 sm:pb-28 sm:pt-40">
           <div className="mx-auto max-w-2xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/70">
-              <Sparkles className="h-3.5 w-3.5" />
+              <img src="/logo.png" alt="Smart SMS Logo" className="h-3.5 w-auto object-contain" />
               {lang === 'mr' ? 'स्मार्ट SMS · बिझनेस पेजेस' : 'Smart SMS · Business Pages'}
             </div>
             <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">
