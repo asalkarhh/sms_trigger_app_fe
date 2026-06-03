@@ -249,7 +249,7 @@ export default function Home() {
                 {/* Optional Background Image */}
                 {demo.image && (
                   <div className="absolute inset-0 z-0 opacity-50 transition-opacity duration-300 group-hover:opacity-70">
-                    <img src={demo.image} alt={demo.name} className="h-full w-full object-contain sm:object-cover object-center" />
+                    <img src={demo.image} alt={demo.name} className="h-full w-full object-cover object-center" />
                     {/* Dark gradient overlay so the white text stays readable */}
                     <div className="absolute inset-0 bg-slate-950/60 group-hover:bg-slate-950/40 transition-colors" />
                   </div>
