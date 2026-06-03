@@ -28,13 +28,13 @@ export default function Hero({ business, lang }) {
   const displayTagline = lang === 'mr' ? (business.tagline_mr || tagline) : tagline
 
   return (
-    <section id="top" className="relative flex min-h-[80svh] flex-col justify-end overflow-hidden pb-16 pt-32 sm:min-h-[70svh]">
+    <section id="top" className="relative flex min-h-[80svh] flex-col justify-end overflow-hidden bg-slate-950 pb-16 pt-32 sm:min-h-[70svh]">
       {/* Background image */}
       {banner && (
         <img
           src={banner}
           alt={`${businessName} banner`}
-          className="absolute inset-0 h-full w-full object-cover scale-105 animate-image-reveal"
+          className="absolute inset-0 h-full w-full object-contain sm:object-cover object-top sm:object-center scale-105 animate-image-reveal"
           loading="eager"
         />
       )}

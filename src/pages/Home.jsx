@@ -147,6 +147,16 @@ const DEMOS = [
     image: 'https://img.magnific.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?semt=ais_hybrid&w=740&q=80',
     email: 'shreesamarth4433@gmail.com',
   },
+  // 15. Diet Wala
+  {
+    slug: 'diet-wala',
+    name: 'Diet Wala',
+    name_mr: 'डायट वाला',
+    category: 'Diet Cafe & Supplement Store',
+    category_mr: 'डायट कॅफे अँड सप्लिमेंट स्टोअर',
+    accent: '#f97316',
+    image: '/diatwala.png',
+  },
 ]
 
 export default function Home() {
@@ -239,7 +249,8 @@ export default function Home() {
                 {/* Optional Background Image */}
                 {demo.image && (
                   <div className="absolute inset-0 z-0 opacity-50 transition-opacity duration-300 group-hover:opacity-70">
-                    <img src={demo.image} alt={demo.name} className="h-full w-full object-cover" />
+                    <img src={demo.image} alt={demo.name} className="h-full w-full object-contain sm:object-cover object-center" />
+                    <img src={demo.image} alt={demo.name} className="h-full w-full object-contain object-center" />
                     {/* Dark gradient overlay so the white text stays readable */}
                     <div className="absolute inset-0 bg-slate-950/60 group-hover:bg-slate-950/40 transition-colors" />
                   </div>
