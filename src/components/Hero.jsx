@@ -34,7 +34,7 @@ export default function Hero({ business, lang }) {
         <img
           src={banner}
           alt={`${businessName} banner`}
-          className="absolute inset-0 h-full w-full object-contain object-bottom scale-105 animate-image-reveal"
+          className="absolute inset-0 h-full w-full object-contain sm:object-cover object-center scale-105 animate-image-reveal"
           loading="eager"
         />
       )}
