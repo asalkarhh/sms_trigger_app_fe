@@ -157,6 +157,16 @@ const DEMOS = [
     accent: '#f97316',
     image: '/diatwala.png',
   },
+  // 16. Mahadik Jewellers
+  {
+    slug: 'mahadik-jewellers',
+    name: 'Mahadik Jewellers',
+    name_mr: 'महाडिक ज्वेलर्स',
+    category: 'Jewelry Store',
+    category_mr: 'ज्वेलरी स्टोअर',
+    accent: '#f59e0b',
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {

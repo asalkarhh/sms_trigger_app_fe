@@ -1,0 +1,58 @@
+{
+  "slug": "mahadik-jewellers",
+  "businessName": "Mahadik Jewellers",
+  "businessName_mr": "महाडिक ज्वेलर्स",
+  "ownerName": "Sushant Mahadik",
+  "ownerName_mr": "सुशांत महाडिक",
+  "category": "Jewelry Store",
+  "category_mr": "ज्वेलरी स्टोअर",
+  "tagline": "Exclusive Gold and Silver Jewelry",
+  "tagline_mr": "एक्सक्लुझिव्ह सोने आणि चांदीचे दागिने",
+  "description": "Welcome to Mahadik Jewellers. We offer a wide range of exclusive gold and silver jewelry for all occasions. Visit us for the latest designs and trusted quality.",
+  "description_mr": "महाडिक ज्वेलर्समध्ये आपले स्वागत आहे. आम्ही सर्व प्रसंगांसाठी एक्सक्लुझिव्ह सोने आणि चांदीच्या दागिन्यांची विस्तृत श्रेणी ऑफर करतो. नवीन डिझाईन्स आणि विश्वासार्ह गुणवत्तेसाठी आम्हाला भेट द्या.",
+  "phone": "+919340189833",
+  "alternatePhone": "+918319751201",
+  "whatsapp": "+919340189833",
+  "email": "",
+  "address": "Near Krantiveer Nanasaheb Patil Putla, Vita",
+  "address_mr": "क्रांतिवीर नानासाहेब पाटील पुतळ्याजवळ, विटा",
+  "mapLink": "https://maps.app.goo.gl/fCVkjMHjA1KTb8Zi9",
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Gold Jewelry",
+    "Silver Jewelry",
+    "Custom Jewelry Design",
+    "Jewelry Repair",
+    "Diamond Jewelry",
+    "Jewelry Polishing"
+  ],
+  "services_mr": [
+    "सोन्याचे दागिने",
+    "चांदीचे दागिने",
+    "कस्टम ज्वेलरी डिझाईन",
+    "दागिने दुरुस्ती",
+    "हिऱ्याचे दागिने",
+    "दागिन्यांची पॉलिशिंग"
+  ],
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+  "images": {
+    "logo": "https://placehold.co/400x400/f59e0b/white?text=MJ",
+    "banner": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#f59e0b"
+  }
+}
