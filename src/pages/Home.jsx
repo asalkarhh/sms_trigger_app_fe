@@ -308,9 +308,9 @@ export default function Home() {
                 {lang === 'mr' ? 'असलकर टेकवर्क्स प्रायव्हेट लिमिटेड' : 'Asalkar Techworks Pvt Ltd'}
               </a>
             </p>
-            <a href="mailto:info@asalkar.in" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
+            <a href="mailto:asalkartechworks@gmail.com" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
               <Mail className="h-3.5 w-3.5" />
-              info@asalkar.in
+              asalkartechworks@gmail.com
             </a>
           </div>
         </div>
