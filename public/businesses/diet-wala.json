@@ -11,8 +11,8 @@
   "description": "Welcome to Diet Wala! We are your premier destination for all types of health and fitness supplements. Whether you're looking for whey protein, vitamins, natural vegetable protein (Moong, Matki, Harbhara, Groundnut), or a healthy snack at our diet cafe, we've got you covered. Visit us for high-quality products to support your fitness journey.",
   "description_mr": "डायट वाला मध्ये आपले स्वागत आहे! आम्ही डायट कॅफे आणि सप्लिमेंट स्टोअरमध्ये सर्व प्रकारचे सप्लिमेंट ऑफर करतो. तुम्हाला व्हे प्रोटीन, नैसर्गिक वनस्पतीजन्य प्रोटीन (मूग, मटकी, हरभरा, शेंगदाणे), जीवनसत्त्वे (vitamins), किंवा आमच्या डायट कॅफेमध्ये काही आरोग्यदायी खायचे असल्यास, आमच्याकडे सर्व काही उपलब्ध आहे. तुमच्या फिटनेस प्रवासाला साथ देण्यासाठी उच्च दर्जाच्या उत्पादनांसाठी नक्की भेट द्या.",
   "phone": "+917058384564",
-  "alternatePhone": "+918600958181",
-  "whatsapp": "+917058384564",
+  "alternatePhone": "+917249304564",
+  "whatsapp": "+917249304564",
   "email": "",
   "address": "Tasgaon Road, Diet Wala, Vita",
   "address_mr": "तासगाव रोड डायट वाला विटा",
@@ -36,24 +36,26 @@
   "services": [
     "Diet Cafe",
     "Supplement Store",
-    "All Types of Supplements",
-    "Whey Protein & Mass Gainers",
-    "Vitamins & Minerals",
-    "Pre-Workout & BCAA",
-    "Healthy Snacks & Meals",
-    "Vegetable Protein",
-    "Veg Protein Snacks (Moong, Matki, Harbhara, Groundnut)"
+    "Whey Protein",
+    "Veg Protein Snacks",
+    "Protein Oats",
+    "Peanut Butter",
+    "Mass Gainer",
+    "BCAA & Vitamins",
+    "Healthy Snacks"
+    
   ],
   "services_mr": [
     "डायट कॅफे",
     "सप्लिमेंट स्टोअर",
-    "सर्व प्रकारचे सप्लिमेंट्स",
-    "व्हे प्रोटीन आणि मास गेनर्स",
-    "व्हिटॅमिन्स आणि मिनरल्स",
-    "प्री-वर्कआउट आणि BCAA",
-    "हेल्दी स्नॅक्स आणि जेवण",
-    "वनस्पतीजन्य प्रोटीन",
-    "व्हेज प्रोटीन स्नॅक्स (मूग, मटकी, हरभरा, शेंगदाणे)"
+    "व्हे प्रोटीन",
+    "व्हेज प्रोटीन स्नॅक्स",
+    "प्रोटीन ओट्स",
+    "पीनट बटर",
+    "मास गेनर",
+    "BCAA व Vitamins",
+    "हेल्दी स्नॅक्स"
+    
   ],
   "images": {
     "logo": "https://placehold.co/240x240/f97316/white?text=DW",
