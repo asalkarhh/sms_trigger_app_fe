@@ -134,6 +134,24 @@ export default function DownloadApp() {
           </div>
         </div>
       </div>
+      <footer className="border-t border-white/10 py-8">
+        <div className="container-page flex flex-col items-center justify-between gap-4 text-center text-xs text-white/45 sm:flex-row sm:text-left">
+          <p>
+            Powered by <span className="font-semibold text-white/70">Smart SMS</span> · Asalkar Techworks Pvt Ltd
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            <Link to="/privacy-policy" className="font-medium text-white/60 transition hover:text-white">
+              Privacy Policy
+            </Link>
+            <a
+              href="mailto:asalkartechworks@gmail.com"
+              className="font-medium text-white/60 transition hover:text-white"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </footer>
       <Analytics />
     </main>
   )

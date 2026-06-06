@@ -308,6 +308,14 @@ export default function Home() {
                 {lang === 'mr' ? 'असलकर टेकवर्क्स प्रायव्हेट लिमिटेड' : 'Asalkar Techworks Pvt Ltd'}
               </a>
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+              <Link to="/download-app" className="text-white/60 hover:text-white transition">
+                Download App
+              </Link>
+              <Link to="/privacy-policy" className="text-white/60 hover:text-white transition">
+                Privacy Policy
+              </Link>
+            </div>
             <a href="mailto:asalkartechworks@gmail.com" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
               <Mail className="h-3.5 w-3.5" />
               asalkartechworks@gmail.com

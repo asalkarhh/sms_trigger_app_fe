@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Phone, Mail } from 'lucide-react'
 import SocialLinks from './SocialLinks.jsx'
 import { telLink, whatsappLink } from '../utils/links.js'
@@ -87,6 +88,9 @@ export default function Footer({ business, lang }) {
               Asalkar Techworks Pvt Ltd
             </a>
           </p>
+          <Link to="/privacy-policy" className="text-xs font-medium text-white/60 transition hover:text-white">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
