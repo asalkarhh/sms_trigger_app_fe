@@ -185,7 +185,7 @@ const DEMOS = [
     category: 'Clothing Mall',
     category_mr: 'क्लॉथिंग मॉल',
     accent: '#ec4899',
-    image: 'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1600&auto=format&fit=crop',
+    image: '/ravindra.jpeg',
   },
 ]
 
