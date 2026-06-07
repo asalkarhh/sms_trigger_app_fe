@@ -177,6 +177,16 @@ const DEMOS = [
     accent: '#f59e0b',
     image: 'https://i0.wp.com/aartimadan.com/wp-content/uploads/2021/12/Masala-Milk-With-Premix.jpg?w=800&ssl=1',
   },
+  // 18. Ravindrra Vastra Niketan
+  {
+    slug: 'ravindrra-vastra-niketan',
+    name: 'Ravindrra Vastra Niketan',
+    name_mr: 'रवींद्र वस्त्र निकेतन',
+    category: 'Clothing Mall',
+    category_mr: 'क्लॉथिंग मॉल',
+    accent: '#ec4899',
+    image: 'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {

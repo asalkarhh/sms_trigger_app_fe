@@ -1,0 +1,65 @@
+{
+  "slug": "ravindrra-vastra-niketan",
+  "businessName": "Ravindrra Vastra Niketan",
+  "businessName_mr": "रवींद्र वस्त्र निकेतन",
+  "ownerName": "Ravindrra Vastra Niketan",
+  "ownerName_mr": "रवींद्र वस्त्र निकेतन",
+  "category": "Clothing Mall",
+  "category_mr": "क्लॉथिंग मॉल",
+  "tagline": "Complete Family Clothing Mall",
+  "tagline_mr": "संपूर्ण कुटुंबासाठी कपड्यांचे भव्य दालन",
+  "description": "Welcome to Ravindrra Vastra Niketan, your one-stop clothing mall for the entire family. Visit us opposite the guest house on Khanapur Road, Vita for the latest fashion trends and traditional wear.",
+  "description_mr": "रवींद्र वस्त्र निकेतनमध्ये आपले स्वागत आहे! संपूर्ण कुटुंबासाठी कपड्यांचे भव्य दालन. अत्याधुनिक फॅशन आणि पारंपारिक पोशाखांसाठी गेस्ट हाऊसच्या समोर, खानापूर रोड, विटा येथे नक्की भेट द्या.",
+  "phone": "+919804323323",
+  "alternatePhone": "",
+  "whatsapp": "+919804323323",
+  "email": "",
+  "address": "Opposite guest house khanapur road, vita",
+  "address_mr": "गेस्ट हाऊसच्या समोर, खानापूर रोड, विटा",
+  "mapLink": "https://maps.app.goo.gl/W6L8WsvZqiiuMq7F6?g_st=ac",
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/ravindrravastranikitan_vita?igsh=NDRod2hobXp6Zzd2",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": [
+    "Men's Wear",
+    "Women's Wear",
+    "Kids Wear",
+    "Traditional & Ethnic Wear",
+    "Sarees Collection",
+    "Wedding Collection",
+    "Designer Kurtis",
+    "Formal Wear",
+    "Winter Wear"
+  ],
+  "services_mr": [
+    "मेन्स वेअर",
+    "वुमन्स वेअर",
+    "किड्स वेअर",
+    "पारंपारिक आणि एथनिक वेअर",
+    "साड्यांचे कलेक्शन",
+    "वेडिंग कलेक्शन",
+    "डिझायनर कुर्ती",
+    "फॉर्मल वेअर",
+    "विंटर वेअर"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/ec4899/white?text=RVN",
+    "banner": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1600&auto=format&fit=crop",
+    "owner": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  "theme": {
+    "accentColor": "#ec4899"
+  }
+}
