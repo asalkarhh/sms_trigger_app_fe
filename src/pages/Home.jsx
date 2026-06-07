@@ -167,6 +167,16 @@ const DEMOS = [
     accent: '#f59e0b',
     image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop',
   },
+  // 17. Shahi Thandai House
+  {
+    slug: 'shahi-thandai-house',
+    name: 'Shahi Thandai House',
+    name_mr: 'शाही थंडाई हाऊस',
+    category: 'Beverage Shop',
+    category_mr: 'शीतपेय दुकान',
+    accent: '#f59e0b',
+    image: 'https://i0.wp.com/aartimadan.com/wp-content/uploads/2021/12/Masala-Milk-With-Premix.jpg?w=800&ssl=1',
+  },
 ]
 
 export default function Home() {
@@ -303,7 +313,7 @@ export default function Home() {
 
           <div className="mt-16 flex flex-col items-center justify-center gap-2 text-xs text-white/40">
             <p>
-              {lang === 'mr' ? 'स्मार्ट SMS द्वारा समर्थित —  · ' : 'Powered by Smart SMS —  · '}
+              {lang === 'mr' ? 'स्मार्ट SMS द्वारा समर्थित —   ' : 'Powered by Smart SMS —  · '}
               <a href="https://www.asalkar.in" className="text-white/60 hover:underline">
                 {lang === 'mr' ? 'असलकर टेकवर्क्स प्रायव्हेट लिमिटेड' : 'Asalkar Techworks Pvt Ltd'}
               </a>

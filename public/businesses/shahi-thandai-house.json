@@ -1,0 +1,55 @@
+{
+  "slug": "shahi-thandai-house",
+  "businessName": "Shahi Thandai House",
+  "businessName_mr": "शाही थंडाई हाऊस",
+  "ownerName": "Somnath Sule",
+  "ownerName_mr": "सोमनाथ सुळे",
+  "category": "Beverage Shop",
+  "category_mr": "शीतपेय दुकान",
+  "tagline": "Natural Protein-rich Thandai",
+  "tagline_mr": "१२ ड्रायफ्रूट्स पासून बनवलेली नॅचरल थंडाई",
+  "description": "Pailwan Thandai made from 12 dry fruits, completely natural and chemical-free. Thandai made in a traditional pot (Kundi) is very healthy and beneficial for the body. Rich in protein, it can be consumed in all three seasons.",
+  "description_mr": "पैलवान थंडाई १२ ड्रायफ्रूट्स पासून बनवलेली नॅचरल केमिकल विरहित थंडाई. कुंडीमध्ये बनवलेली थंडाई ही आपल्या शरीरासाठी सगळ्यात गुणकारी आणि फायदेमंद आहे. यामध्ये १२ ड्रायफ्रूटचे प्रमाण असल्यामुळे आपल्या शरीरासाठी प्रोटीन युक्त थंडाई बनते आणि ह्याचे सेवन तिन्ही ऋतूत केले जाते.",
+  "phone": "+919172416540",
+  "alternatePhone": "+918857898812",
+  "whatsapp": "+919172416540",
+  "email": "",
+  "address": "Deluxe Servicing Center, Khanapur Road, Vita - 415311",
+  "address_mr": "डिलक्स सर्व्हिसिंग सेंटर, खानापुर रोड, विटा - 415311",
+  "mapLink": "https://goo.gl/maps/G97nj2Ne6F9aP7hR8?g_st=ac",
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/_shahi_thandai_house_vita?igsh=MXRubzRuNjM2dmc2bA%3D%3D",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": [
+    "Pailwan Thandai",
+    "Dry Fruit Thandai",
+    "Protein-rich Thandai",
+    "Natural & Chemical-free"
+  ],
+  "services_mr": [
+    "पैलवान थंडाई",
+    "ड्रायफ्रूट थंडाई",
+    "प्रोटीन युक्त थंडाई",
+    "नैसर्गिक आणि केमिकल विरहित"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/f59e0b/white?text=STH",
+    "banner": "https://i0.wp.com/aartimadan.com/wp-content/uploads/2021/12/Masala-Milk-With-Premix.jpg?w=800&ssl=1",
+    "owner": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+  "theme": {
+    "accentColor": "#f59e0b"
+  }
+}
