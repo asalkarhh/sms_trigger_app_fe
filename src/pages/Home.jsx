@@ -187,6 +187,18 @@ const DEMOS = [
     accent: '#ec4899',
     image: '/ravindra.jpeg',
   },
+  // 19. Shri Sai Samarth Seva Bhavi Sanstha
+  {
+    slug: 'shri-sai-samarth-seva-bhavi-sanstha',
+    name: 'Shri Sai Samarth Seva Bhavi Sanstha',
+    name_mr: 'श्री साई समर्थ सेवा भावी संस्था, भूम',
+    category: 'Worker Registration',
+    category_mr: 'कामगार नोंदणी',
+    tagline: 'Quickest worker registration and benefits',
+    tagline_mr: 'सर्व प्रकारच्या कामगार नोंदणी व त्याचे लाभ सर्वात जलद गतीने मिळवून देणारी संस्था',
+    accent: '#f43f5e',
+    image: '/shri-samarth-sanstha.png',
+  },
 ]
 
 export default function Home() {

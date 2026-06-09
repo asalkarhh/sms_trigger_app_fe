@@ -1,0 +1,57 @@
+{
+  "slug": "shri-sai-samarth-seva-bhavi-sanstha",
+  "businessName": "Shri Sai Samarth Seva Bhavi Sanstha",
+  "businessName_mr": "श्री साई समर्थ सेवा भावी संस्था, भूम",
+  "ownerName": "Karan Ajit Bagade",
+  "ownerName_mr": "करण अजित बागडे",
+  "category": "Worker Registration",
+  "category_mr": "कामगार नोंदणी",
+  "tagline": "Quickest worker registration and benefits",
+  "tagline_mr": "सर्व प्रकारच्या कामगार नोंदणी व त्याचे लाभ सर्वात जलद गतीने मिळवून देणारी संस्था",
+  "description": "We offer construction worker, sugarcane cutter and all other types of worker registrations. We are an institution providing all types of worker registration and its benefits at the fastest speed.",
+  "description_mr": "आम्ही बांधकाम कामगार व ऊसतोड कामगार व इतर अन्य सर्व प्रकारच्या कामगार नोंदणी करतो. सर्व प्रकारच्या कामगार नोंदणी व त्याचे लाभ सर्वात जलद गतीने मिळवून देणारी संस्था.",
+  "phone": "+918446022045",
+  "alternatePhone": "+919421770376",
+  "whatsapp": "+918446022045",
+  "email": "",
+  "address": "Near Sarkari Kamgar Office, Beside Nagar Parishad, Bhoom",
+  "address_mr": "सरकारी कामगार ऑफिस जवळ, नगरपरिषद शेजारी, भूम",
+  "mapLink": "https://maps.app.goo.gl/3LyqGqiDTBnWZbV47?g_st=awb",
+  "hours": {
+    "mon": "9:00 AM - 6:00 PM",
+    "tue": "9:00 AM - 6:00 PM",
+    "wed": "9:00 AM - 6:00 PM",
+    "thu": "9:00 AM - 6:00 PM",
+    "fri": "9:00 AM - 6:00 PM",
+    "sat": "9:00 AM - 6:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Construction Worker Registration",
+    "Sugarcane Cutter Registration",
+    "All Types of Worker Registration"
+  ],
+  "services_mr": [
+    "बांधकाम कामगार नोंदणी",
+    "ऊसतोड कामगार नोंदणी",
+    "सर्व प्रकारच्या कामगार नोंदणी"
+  ],
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/shri_sss_sanstha?igsh=d3F0YWhjOTFzdWEx",
+    "facebook": "",
+    "youtube": ""
+  },
+  "payment": {
+    "upiId": "",
+    "showPayButton": false
+  },
+  "images": {
+    "logo": "/shri-samarth-sanstha.png",
+    "banner": "/shri-samarth-sanstha.png",
+    "gallery": []
+  },
+  "theme": {
+    "accentColor": "#f43f5e"
+  }
+}
