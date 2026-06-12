@@ -199,6 +199,16 @@ const DEMOS = [
     accent: '#f43f5e',
     image: '/shri-samarth-sanstha.png',
   },
+  // 20. IPMH Clinic Pune
+  {
+    slug: 'ipmh-clinic-pune',
+    name: 'IPMH Clinic Pune',
+    name_mr: 'आयपीएमएच क्लिनिक पुणे (IPMH)',
+    category: 'Health Clinic & Chiropractic',
+    category_mr: 'हेल्थ क्लिनिक आणि कायरोप्रॅक्टिक',
+    accent: '#0ea5e9',
+    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {

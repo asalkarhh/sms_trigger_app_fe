@@ -1,0 +1,58 @@
+{
+  "slug": "ipmh-clinic-pune",
+  "businessName": "IPMH Clinic Pune",
+  "businessName_mr": "आयपीएमएच क्लिनिक पुणे (IPMH)",
+  "ownerName": "Dr. Vinayak Dendge",
+  "ownerName_mr": "डॉ. विनायक डेंडगे",
+  "category": "Health Clinic & Chiropractic",
+  "category_mr": "हेल्थ क्लिनिक आणि कायरोप्रॅक्टिक",
+  "tagline": "Advanced Osteopathy, Physiotherapy & Spine Care",
+  "tagline_mr": "अत्याधुनिक ऑस्टिओपॅथी, फिजिओथेरपी आणि स्पाइन केअर",
+  "description": "Institute of Physical and Mental Health (IPMH), Pune provides advanced Osteopathy, Physiotherapy, Spine Care, and Medical Chiropractic treatments for back pain, neck pain, headaches, disc-related conditions, posture disorders, nerve pain, and sports injuries, with a holistic approach to physical and mental well-being.",
+  "description_mr": "इन्स्टिट्यूट ऑफ फिजिकल अँड मेंटल हेल्थ (IPMH), पुणे शारीरिक आणि मानसिक आरोग्यासाठी समग्र दृष्टिकोनातून पाठदुखी, मानदुखी, डोकेदुखी, स्लिप डिस्क, मणक्याचे आजार आणि क्रीडा दुखापतींसाठी अत्याधुनिक ऑस्टिओपॅथी, फिजिओथेरपी, स्पाइन केअर आणि मेडिकल कायरोप्रॅक्टिक उपचार प्रदान करते.",
+  "phone": "+919730480101",
+  "alternatePhone": "+919850825074",
+  "whatsapp": "+919730480101",
+  "email": "",
+  "address": "Kamalraj, 266, near Omkareshwar Temple, Shaniwar Peth, Pune",
+  "address_mr": "कमळराज, 266, ओंकारेश्वर मंदिराजवळ, शनिवार पेठ, पुणे",
+  "mapLink": "https://maps.app.goo.gl/yWqHB6FAJTPKFRbW8",
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Osteopathy",
+    "Physiotherapy",
+    "Spine Care",
+    "Medical Chiropractic Treatments",
+    "Sports Injury Treatment",
+    "Posture Correction"
+  ],
+  "services_mr": [
+    "ऑस्टिओपॅथी",
+    "फिजिओथेरपी",
+    "स्पाइन केअर",
+    "मेडिकल कायरोप्रॅक्टिक उपचार",
+    "क्रीडा दुखापतींवर उपचार",
+    "पोश्चर सुधारणा"
+  ],
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/drvinayakd_chiropractor_pune?igsh=ZW04ZWgwb3RmanVv",
+    "facebook": "",
+    "youtube": ""
+  },
+  "images": {
+    "logo": "https://placehold.co/400x400/0ea5e9/white?text=IPMH",
+    "banner": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#0ea5e9"
+  }
+}
