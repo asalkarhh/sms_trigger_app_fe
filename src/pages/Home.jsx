@@ -229,6 +229,16 @@ const DEMOS = [
     accent: '#ef4444',
     image: '/AS-Audi.jpeg',
   },
+  // 23. Naari The Fashion Hub
+  {
+    slug: 'naari-the-fashion-hub',
+    name: 'Naari The Fashion Hub',
+    name_mr: 'नारी द फॅशन हब',
+    category: "Women's Clothing",
+    category_mr: 'वुमेन्स क्लोथिंग',
+    accent: '#ec4899',
+    image: '/nari-fashionhub.jpeg',
+  },
 ]
 
 export default function Home() {

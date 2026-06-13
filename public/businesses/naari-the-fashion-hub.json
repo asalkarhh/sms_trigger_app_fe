@@ -1,0 +1,59 @@
+{
+  "slug": "naari-the-fashion-hub",
+  "businessName": "Naari The Fashion Hub",
+  "businessName_mr": "नारी द फॅशन हब",
+  "ownerName": "Priya Pravin Kadam",
+  "ownerName_mr": "प्रिया प्रवीण कदम",
+  "category": "Women's Clothing",
+  "category_mr": "वुमेन्स क्लोथिंग",
+  "tagline": "Exclusive Sarees & Dresses for Women",
+  "tagline_mr": "महिलांसाठी एक्सक्लुझिव्ह साड्या आणि ड्रेसेस",
+  "description": "Welcome to Naari The Fashion Hub. We offer a beautiful and exclusive collection of sarees and dresses for women. Visit us for the latest fashion trends and traditional wear.",
+  "description_mr": "नारी द फॅशन हब मध्ये आपले स्वागत आहे. आमच्याकडे महिलांसाठी साड्या आणि ड्रेसेसचे सुंदर आणि एक्सक्लुझिव्ह कलेक्शन उपलब्ध आहे. नवीन फॅशन ट्रेंड आणि पारंपारिक पोशाखांसाठी आम्हाला नक्की भेट द्या.",
+  "phone": "+919359630743",
+  "alternatePhone": "+919359630743",
+  "whatsapp": "+919359630743",
+  "email": "",
+  "address": "Sambhav Hights, Bhaji Mandai Road, Vita",
+  "address_mr": "संभव हाईट्स, भाजी मंडई रोड, विटा",
+  "mapLink": "https://maps.app.goo.gl/LhCz3PVcRUNYbDic7",
+  "hideVisitUs": false,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/_naari.the_fashion.hub_/",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Sarees",
+    "Dresses",
+    "Women's Fashion",
+    "Traditional Wear",
+    "Trendy Collections",
+    "Kurtis & Tops"
+  ],
+  "services_mr": [
+    "साड्या",
+    "ड्रेसेस",
+    "वुमेन्स फॅशन",
+    "पारंपारिक पोशाख",
+    "ट्रेंडी कलेक्शन",
+    "कुर्ती आणि टॉप्स"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/ec4899/white?text=NT",
+    "banner": "/nari-fashionhub.jpeg"
+  },
+  "theme": {
+    "accentColor": "#ec4899"
+  }
+}
