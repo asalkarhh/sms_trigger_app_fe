@@ -209,6 +209,26 @@ const DEMOS = [
     accent: '#0ea5e9',
     image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop',
   },
+  // 21. Shree Swami Samarth Mens Wear
+  {
+    slug: 'shree-swami-samarth-mens-wear',
+    name: 'Shree Swami Samarth Mens Wear',
+    name_mr: 'श्री स्वामी समर्थ मेन्स वेर',
+    category: 'Mens Clothing',
+    category_mr: 'मेन्स क्लोथिंग',
+    accent: '#0ea5e9',
+    image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1600&auto=format&fit=crop',
+  },
+  // 22. AS Audio
+  {
+    slug: 'as-audio',
+    name: 'AS Audio',
+    name_mr: 'ए एस ऑडिओ',
+    category: 'Car Accessories & Sound',
+    category_mr: 'कार अ‍ॅक्सेसरीज आणि साउंड',
+    accent: '#ef4444',
+    image: '/AS-Audi.jpeg',
+  },
 ]
 
 export default function Home() {

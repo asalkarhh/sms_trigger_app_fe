@@ -1,0 +1,61 @@
+{
+  "slug": "shree-swami-samarth-mens-wear",
+  "businessName": "Shree Swami Samarth Mens Wear",
+  "businessName_mr": "श्री स्वामी समर्थ मेन्स वेर",
+  "ownerName": "Hardik Sawant",
+  "ownerName_mr": "हार्दिक सावंत",
+  "category": "Mens Clothing",
+  "category_mr": "मेन्स क्लोथिंग",
+  "tagline": "Attractive Collection & Affordable Rates",
+  "tagline_mr": "आकर्षक कलेक्शन व परवडणारे दर",
+  "description": "Welcome to Shree Swami Samarth Mens Wear. We offer a wide range of shirts, t-shirts, jeans, trousers, ethnic, and formal wear. We also specialize in wedding collections and all types of readymade garments. Visit us for high-quality, fashionable, and trendy clothes at affordable prices. Customer satisfaction is our ultimate goal!",
+  "description_mr": "श्री स्वामी समर्थ मेन्स वेर मध्ये आपले स्वागत आहे. आमच्याकडे शर्ट्स, टी-शर्ट्स, जीन्स, ट्राउझर्स, एथनिक व फॉर्मल वेअरचे आकर्षक कलेक्शन उपलब्ध आहे. तसेच आमच्याकडे लग्नाचा बस्ता (Wedding Collection) आणि सर्व प्रकारचे रेडीमेड कपडे मिळतील. दर्जेदार, फॅशनेबल आणि ट्रेंडी कपड्यांसाठी आम्हाला नक्की भेट द्या. ग्राहकांचे समाधान हेच आमचे ध्येय!",
+  "phone": "+919096039278",
+  "alternatePhone": "+919096039278",
+  "whatsapp": "+919096039278",
+  "email": "",
+  "address": "Opposite Mahatma Gandhi School, Pusesawali",
+  "address_mr": "पुसेसावळी महात्मा गांधी शाळा समोर",
+  "mapLink": "https://goo.gl/maps/ozVBVm25f81EfTeT8",
+  "hideVisitUs": false,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/shree_swami_samarth_mens_wear_/",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Shirts & T-Shirts",
+    "Jeans & Trousers",
+    "Ethnic & Formal Wear",
+    "Wedding Collection",
+    "Readymade Garments",
+    "Men's Accessories",
+    "Custom Tailoring"
+  ],
+  "services_mr": [
+    "शर्ट्स आणि टी-शर्ट्स",
+    "जीन्स व ट्राउझर्स",
+    "एथनिक व फॉर्मल वेअर",
+    "लग्नाचा बस्ता",
+    "रेडीमेड गारमेंट्स",
+    "मेन्स अ‍ॅक्सेसरीज",
+    "कस्टम टेलरिंग"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/0ea5e9/white?text=SM",
+    "banner": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#0ea5e9"
+  }
+}

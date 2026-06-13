@@ -1,0 +1,59 @@
+{
+  "slug": "as-audio",
+  "businessName": "AS Audio",
+  "businessName_mr": "ए एस ऑडिओ",
+  "ownerName": "Aditya Shitole",
+  "ownerName_mr": "आदित्य शितोळे",
+  "category": "Car Accessories & Sound",
+  "category_mr": "कार अ‍ॅक्सेसरीज आणि साउंड",
+  "tagline": "Original Car Accessories & Custom Sound Systems",
+  "tagline_mr": "ओरिजनल कार अ‍ॅक्सेसरीज आणि कस्टम साउंड सिस्टम्स",
+  "description": "Welcome to AS Audio. We provide 100% original products from brands like JBL, Pioneer, Sony, and Infinity. We offer woofers, amplifiers, Android screens, speakers, reverse cameras, and custom sound systems for cars and homes.",
+  "description_mr": "ए एस ऑडिओ मध्ये आपले स्वागत आहे. आमच्याकडे JBL, Pioneer, Sony आणि Infinity यांसारख्या ब्रँड्सची १००% ओरिजनल उत्पादने मिळतील. आम्ही कार आणि घरासाठी वूफर, अ‍ॅम्प्लीफायर, अँड्रॉइड स्क्रीन, स्पीकर, रिव्हर्स कॅमेरा आणि कस्टम साउंड सिस्टम्स देतो.",
+  "phone": "+919970141814",
+  "alternatePhone": "+919699106196",
+  "whatsapp": "+919970141814",
+  "email": "",
+  "address": "Nevri road, near Shree Ram Traders, Opp. Ganesh Steel Furniture, Vita",
+  "address_mr": "नेवरी रोड, श्री राम ट्रेडर्स जवळ, गणेश स्टील फर्निचर समोर, विटा",
+  "mapLink": "https://maps.app.goo.gl/Xphz18h1Sw1mZEAK8",
+  "hideVisitUs": false,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/as_audio_007_official?igsh=aXZlNXpnbWg2aDhr",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Home Theater",
+    "Car Accessories",
+    "Custom Home Sound System",
+    "Custom Car Sound System",
+    "Woofers & Amplifiers",
+    "Android Screens & Cameras"
+  ],
+  "services_mr": [
+    "होम थिएटर",
+    "कार अ‍ॅक्सेसरीज",
+    "कस्टम होम साउंड सिस्टम",
+    "कस्टम कार साउंड सिस्टम",
+    "वूफर आणि अ‍ॅम्प्लीफायर",
+    "अँड्रॉइड स्क्रीन आणि कॅमेरे"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/ef4444/white?text=AS",
+    "banner": "/AS-Audi.jpeg"
+  },
+  "theme": {
+    "accentColor": "#ef4444"
+  }
+}
