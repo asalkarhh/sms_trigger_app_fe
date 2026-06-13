@@ -239,6 +239,18 @@ const DEMOS = [
     accent: '#ec4899',
     image: '/nari-fashionhub.jpeg',
   },
+  // 24. Amruta Agency
+  {
+    slug: 'amruta-agency',
+    name: 'Amruta Agency',
+    name_mr: 'अमृता एजन्सी',
+    category: 'Toy Store',
+    category_mr: 'टॉय स्टोअर',
+    tagline: 'Wholesale of toys and jackets',
+    tagline_mr: 'खेळणी आणि जॅकेट्सचे होलसेल विक्रेते',
+    accent: '#3b82f6',
+    image: '/AmrutaAgency.jpeg',
+  },
 ]
 
 export default function Home() {

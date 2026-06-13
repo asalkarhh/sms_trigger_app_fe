@@ -1,0 +1,55 @@
+{
+  "slug": "amruta-agency",
+  "businessName": "Amruta Agency",
+  "businessName_mr": "अमृता एजन्सी",
+  "ownerName": "Nitin Nikam",
+  "ownerName_mr": "नितीन निकम",
+  "category": "Toy Store",
+  "category_mr": "टॉय स्टोअर",
+  "tagline": "Wholesale of toys and jackets",
+  "tagline_mr": "खेळणी आणि जॅकेट्सचे होलसेल विक्रेते",
+  "description": "Welcome to Amruta Agency. We are wholesalers of a wide variety of toys and jackets. Visit us for new designs, best quality toys, gifts, kid's items, and electric cars.",
+  "description_mr": "अमृता एजन्सीमध्ये आपले स्वागत आहे. आम्ही खेळणी आणि जॅकेट्सचे होलसेल विक्रेते आहोत. ✨ लहानग्यांच्या आनंदासाठी खास खेळणी, नवीन डिझाईन, बेस्ट क्वालिटी, 🎁 गिफ्ट्स, किड्स आयटम्स आणि 🔋 इलेक्ट्रिक कार्ससाठी आम्हाला भेट द्या.",
+  "phone": "+917666989074",
+  "alternatePhone": "+919270709074",
+  "whatsapp": "+917666989074",
+  "email": "",
+  "address": "Manerajuri Road, in front of Sainik School, Tasgaon",
+  "address_mr": "मणेराजुरी रोड, सैनिक स्कूल समोर, तासगाव",
+  "mapLink": "https://maps.app.goo.gl/gLN79pzKvrMqfbu47",
+  "hideVisitUs": false,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/amruta__agency?igsh=eDI4N2JjbGd4dDJv",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Toy Wholesale",
+    "Jackets Upper",
+    "Gifts & Kid's Items",
+    "Electric Cars"
+  ],
+  "services_mr": [
+    "🧸 खेळणी होलसेल",
+    "जॅकेट्स",
+    "🎁 गिफ्ट्स आणि किड्स आयटम्स",
+    "🚗 इलेक्ट्रिक कार्स"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/3b82f6/white?text=AA",
+    "banner": "/AmrutaAgency.jpeg"
+  },
+  "theme": {
+    "accentColor": "#3b82f6"
+  }
+}
