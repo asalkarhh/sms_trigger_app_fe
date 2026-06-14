@@ -1,0 +1,59 @@
+{
+  "slug": "potdar-jewellers",
+  "businessName": "Potdar Jewellers",
+  "businessName_mr": "पोतदार ज्वेलर्स",
+  "ownerName": "Gajanan Shankar Potdar",
+  "ownerName_mr": "गजानन शंकर पोतदार",
+  "category": "Jewelry Store",
+  "category_mr": "ज्वेलरी स्टोअर",
+  "tagline": "A Relationship of Purity and Tradition...",
+  "tagline_mr": "एक नातं शुध्दतेच आणि पंरपरेच…",
+  "description": "A 150-year-old traditional firm. Authentic goldsmiths providing HUID government approved hallmark 91.60 jewelry. We specialize in custom-made traditional and modern bridal jewelry, ensuring the highest purity and exquisite craftsmanship. Trust us for all your gold, silver, and diamond needs.",
+  "description_mr": "150 वर्षा पासुन चालत आलेली पेढी. पोतदार ज्वेलर्स…जातिवंत सोनार HUID सरकार मान्य प्राप्त होलमार्क 91.60 दागिने. आम्ही खास तुमच्या पसंतीनुसार पारंपारिक आणि आधुनिक डिझाईन्सचे दागिने बनवून देतो. लग्नाचा बस्ता आणि सर्व प्रकारच्या सोन्या-चांदीच्या दागिन्यांसाठी आमचे दालन नक्कीच एक उत्तम पर्याय आहे. शुद्धतेची आणि विश्वासाची १००% हमी!",
+  "phone": "+919970911238",
+  "alternatePhone": "+919960981887",
+  "whatsapp": "+919970911238",
+  "email": "",
+  "address": "Wangi, Taluka: Kadegaon, District: Sangli",
+  "address_mr": "वांगी, तालुका:कडेगाव, जिल्हा:सांगली",
+  "mapLink": "https://maps.app.goo.gl/Uf8xmTie9rtLP2c17",
+  "hideVisitUs": false,
+  "social": {
+    "website": "",
+    "instagram": "https://www.instagram.com/potdar_jewllers?igsh=MWxpMjY5Mjg5cmZnMg==",
+    "facebook": "",
+    "youtube": ""
+  },
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "Closed"
+  },
+  "services": [
+    "Gold Jewelry",
+    "Silver Jewelry",
+    "HUID Hallmark 91.60",
+    "Custom Bridal Jewelry",
+    "Diamond Rings & Necklaces",
+    "Gold & Silver Coins"
+  ],
+  "services_mr": [
+    "सोन्याचे दागिने",
+    "चांदीचे दागिने",
+    "HUID होलमार्क 91.60 दागिने",
+    "लग्नाचे खास दागिने (Bridal Jewelry)",
+    "हिऱ्याच्या अंगठ्या आणि नेकलेस",
+    "सोने आणि चांदीची नाणी"
+  ],
+  "images": {
+    "logo": "https://placehold.co/240x240/f59e0b/white?text=PJ",
+    "banner": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#f59e0b"
+  }
+}

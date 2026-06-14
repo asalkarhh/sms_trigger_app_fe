@@ -251,6 +251,18 @@ const DEMOS = [
     accent: '#3b82f6',
     image: '/AmrutaAgency.jpeg',
   },
+  // 25. Potdar Jewellers
+  {
+    slug: 'potdar-jewellers',
+    name: 'Potdar Jewellers',
+    name_mr: 'पोतदार ज्वेलर्स',
+    category: 'Jewelry Store',
+    category_mr: 'ज्वेलरी स्टोअर',
+    tagline: 'A Relationship of Purity and Tradition...',
+    tagline_mr: 'एक नातं शुध्दतेच आणि पंरपरेच…',
+    accent: '#f59e0b',
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {
