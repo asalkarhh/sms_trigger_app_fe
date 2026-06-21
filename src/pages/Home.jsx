@@ -263,6 +263,16 @@ const DEMOS = [
     accent: '#f59e0b',
     image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop',
   },
+  // 2. Sakjaram  Enterprise (Appliance Repair)
+  {
+    slug: 'sakharam-enterprises',
+    name: 'Sakharam Enterprises',
+    name_mr: 'सखाराम एंटरप्रायझेस',
+    category: 'Appliance Repair',
+    category_mr: 'उपकरणे दुरुस्ती',
+    accent: '#ea580c',
+    image: 'https://images.openai.com/static-rsc-4/_HevTAY46GxkDwzG7RWfQWk_Sug4AkIEEG2gCi7v70xQi89WUaGD3alhURfKLtq85KE6stS_zfCydjBH64SxeNslj5TQpC1m11CYKFmoOi-K1mvu3WDmgN1K5oEvMN1jO_rsxgdd47O5ibcN8NW4ibekL2j7bkyuVV67uZ68kFM?purpose=inline',
+  },
 ]
 
 export default function Home() {

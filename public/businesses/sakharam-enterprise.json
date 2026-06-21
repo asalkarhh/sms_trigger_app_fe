@@ -1,0 +1,72 @@
+{
+  "slug": "sakharam-enterprises",
+
+  "businessName": "Sakharam Enterprises",
+  "businessName_mr": "सखाराम एंटरप्रायझेस",
+
+  "ownerName": "Shyam Ware",
+  "ownerName_mr": "श्याम वरे",
+
+  "category": "Gas Stove Sales & Repair",
+  "category_mr": "गॅस शेगडी विक्री व दुरुस्ती",
+
+  "tagline": "Wholesale, Retail Sales & Repair Center for Gas Appliances",
+  "tagline_mr": "गॅस उपकरणांची होलसेल, रिटेल विक्री व दुरुस्ती सेवा",
+
+  "description": "Sakharam Enterprises is a trusted center for wholesale and retail sales of gas stoves and gas appliances. We provide expert repair services for gas stoves, gas burners, pressure cookers, mixers, and mixer jars with quality workmanship and reliable customer service.",
+
+  "description_mr": "सखाराम एंटरप्रायझेस हे गॅस शेगडी व गॅस उपकरणांच्या होलसेल आणि रिटेल विक्रीसाठी विश्वासार्ह केंद्र आहे. गॅस शेगडी, गॅस भांडी, कुकर, मिक्सर आणि मिक्सर भांड्यांची दुरुस्ती कुशल कारागिरांमार्फत केली जाते.",
+
+  "phone": "+919860935317",
+  "whatsapp": "+919860935317",
+  "alternatePhone": "+918421000677",
+
+  "email": "",
+
+  "address": "Alamprabhu Shopping Complex, Bhoom, Maharashtra 413504",
+  "address_mr": "अलमप्रभू शॉपिंग कॉम्प्लेक्स, भूम, महाराष्ट्र ४१३५०४",
+
+  "mapLink": "https://maps.app.goo.gl/g5jtZCrMUU843ECN8",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "9:00 AM - 2:00 PM"
+  },
+
+  "services": [
+    "Gas Stove Sales",
+    "Gas Stove Repair",
+    "Gas Burner Repair",
+    "Pressure Cooker Repair",
+    "Mixer Repair",
+    "Mixer Jar Repair",
+    "Wholesale Supply",
+    "Retail Sales"
+  ],
+
+  "services_mr": [
+    "गॅस शेगडी विक्री",
+    "गॅस शेगडी दुरुस्ती",
+    "गॅस भांडी दुरुस्ती",
+    "कुकर दुरुस्ती",
+    "मिक्सर दुरुस्ती",
+    "मिक्सर भांडी दुरुस्ती",
+    "होलसेल पुरवठा",
+    "रिटेल विक्री"
+  ],
+
+  "images": {
+    "logo": "https://placehold.co/240x240/f59e0b/white?text=SE",
+     "banner": "https://images.openai.com/static-rsc-4/_HevTAY46GxkDwzG7RWfQWk_Sug4AkIEEG2gCi7v70xQi89WUaGD3alhURfKLtq85KE6stS_zfCydjBH64SxeNslj5TQpC1m11CYKFmoOi-K1mvu3WDmgN1K5oEvMN1jO_rsxgdd47O5ibcN8NW4ibekL2j7bkyuVV67uZ68kFM?purpose=inline",
+    "owner": "https://placehold.co/300x300/f59e0b/ffffff?text=Shyam+Ware"
+  },
+
+  "theme": {
+    "accentColor": "#f59e0b"
+  }
+}
