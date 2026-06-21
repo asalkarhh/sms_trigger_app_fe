@@ -263,7 +263,7 @@ const DEMOS = [
     accent: '#f59e0b',
     image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600&auto=format&fit=crop',
   },
-  // 2. Sakjaram  Enterprise (Appliance Repair)
+  // 26. Sakjaram  Enterprise (Appliance Repair)
   {
     slug: 'sakharam-enterprises',
     name: 'Sakharam Enterprises',
@@ -272,6 +272,16 @@ const DEMOS = [
     category_mr: 'उपकरणे दुरुस्ती',
     accent: '#ea580c',
     image: 'https://images.openai.com/static-rsc-4/_HevTAY46GxkDwzG7RWfQWk_Sug4AkIEEG2gCi7v70xQi89WUaGD3alhURfKLtq85KE6stS_zfCydjBH64SxeNslj5TQpC1m11CYKFmoOi-K1mvu3WDmgN1K5oEvMN1jO_rsxgdd47O5ibcN8NW4ibekL2j7bkyuVV67uZ68kFM?purpose=inline',
+  },
+  // 27. Unique Security System
+  {
+    slug: 'unique-security-systems',
+    name: 'Unique Security Systems',
+    name_mr: 'युनिक सिक्युरिटी सिस्टिम्स',
+    category: 'CCTV & Security Systems',
+    category_mr: 'सीसीटीव्ही व सिक्युरिटी सिस्टिम्स',
+    accent: '#2563eb',
+    image: '/Unique-Security-Systems.jpeg',
   },
 ]
 

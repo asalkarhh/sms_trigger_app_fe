@@ -1,0 +1,77 @@
+{
+  "slug": "unique-security-systems",
+
+  "businessName": "Unique Security Systems",
+  "businessName_mr": "युनिक सिक्युरिटी सिस्टिम्स",
+
+  "ownerName": "Rafik R Halli",
+  "ownerName_mr": "रफिक आर. हळ्ळी",
+
+  "category": "CCTV & Security Systems",
+  "category_mr": "सीसीटीव्ही व सिक्युरिटी सिस्टिम्स",
+
+  "tagline": "Sales, Installation & Service of CCTV and Security Systems",
+  "tagline_mr": "सीसीटीव्ही व सिक्युरिटी सिस्टिम्सची विक्री, बसवणी व सेवा",
+
+  "description": "Unique Security Systems provides professional CCTV camera installation, security system setup, maintenance, and repair services. We offer HD Cameras, IP Cameras, WiFi Cameras, 4G Cameras, Solar Cameras, DVR/NVR setup, and complete security solutions for homes, offices, shops, schools, and industries.",
+
+  "description_mr": "युनिक सिक्युरिटी सिस्टिम्स येथे सीसीटीव्ही कॅमेरे, सिक्युरिटी सिस्टिम्स, सोलर कॅमेरे, वायफाय कॅमेरे, एचडी कॅमेरे, आयपी कॅमेरे यांची विक्री, बसवणी व सर्व्हिस उपलब्ध आहे. घर, दुकान, ऑफिस, शाळा व उद्योगांसाठी संपूर्ण सुरक्षा उपाय उपलब्ध करून दिले जातात.",
+
+  "phone": "+918975233581",
+  "whatsapp": "+918975233581",
+
+  "email": "",
+
+  "address": "Unique Security Systems, Patil Wasti, Khanapur Road, Vita, Tal-Khanapur, Dist-Sangli, Maharashtra",
+  "address_mr": "युनिक सिक्युरिटी सिस्टिम्स, पाटील वस्ती, खानापूर रोड, विटा, ता. खानापूर, जि. सांगली, महाराष्ट्र",
+
+  "mapLink": "https://maps.app.goo.gl/JBkqFVPVcuvY4udP6",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "10:00 AM - 2:00 PM"
+  },
+
+  "services": [
+    "HD CCTV Camera Installation",
+    "IP Camera Installation",
+    "WiFi Camera Installation",
+    "4G Camera Installation",
+    "Solar Camera Installation",
+    "Security System Setup",
+    "CCTV Repair & Maintenance",
+    "DVR/NVR Configuration",
+    "Home Security Solutions",
+    "Office Security Solutions",
+    "Sales & Service"
+  ],
+
+  "services_mr": [
+    "एचडी सीसीटीव्ही कॅमेरा बसवणी",
+    "आयपी कॅमेरा बसवणी",
+    "वायफाय कॅमेरा बसवणी",
+    "4G कॅमेरा बसवणी",
+    "सोलर कॅमेरा बसवणी",
+    "सिक्युरिटी सिस्टिम्स बसवणी",
+    "सीसीटीव्ही दुरुस्ती व देखभाल",
+    "डीव्हीआर / एनव्हीआर कॉन्फिगरेशन",
+    "घरासाठी सुरक्षा उपाय",
+    "ऑफिससाठी सुरक्षा उपाय",
+    "विक्री व सेवा"
+  ],
+
+  "images": {
+    "logo": "https://placehold.co/240x240/2563eb/ffffff?text=USS",
+    "banner": "/Unique-Security-Systems.jpeg",
+    "owner": "https://placehold.co/300x300/2563eb/ffffff?text=Rafik+Halli"
+  },
+
+  "theme": {
+    "accentColor": "#2563eb"
+  }
+}
