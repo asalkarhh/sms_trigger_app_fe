@@ -12,7 +12,8 @@ import PayButton from '../components/PayButton.jsx'
 import Footer from '../components/Footer.jsx'
 import MobileActionBar from '../components/MobileActionBar.jsx'
 import { hexToRgbChannels } from '../utils/color.js'
-import { Instagram } from 'lucide-react'
+// [UPDATED] Added Instagram + ExternalLink icons for Drive catalog banner
+import { Instagram, ExternalLink, BookOpen } from 'lucide-react'
 import { Analytics } from '@vercel/analytics/react'
 
 
@@ -124,6 +125,57 @@ export default function BusinessPage() {
           </div>
         </div>
       )}
+
+      {/* ─────────────────────────────────────────────────────────
+          [NEW] Product Catalog Banner
+          Shows when business.productCatalog (Google Drive link) is set.
+          Added for Amruta Agency to let customers browse product images.
+          ───────────────────────────────────────────────────────── */}
+      {business.productCatalog && (
+        <div className="container-page pb-16 sm:pb-24">
+          <div
+            className="mx-auto max-w-3xl rounded-3xl p-[2px] shadow-lg"
+            style={{ background: `rgb(var(--accent-rgb))` }}
+          >
+            <div className="rounded-[1.4rem] bg-white px-6 py-10 text-center sm:px-10">
+              {/* Icon */}
+              <div
+                className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full text-white shadow-md"
+                style={{ background: `rgb(var(--accent-rgb))` }}
+              >
+                <BookOpen className="h-8 w-8" />
+              </div>
+
+              {/* Heading */}
+              <h3 className="mb-2 font-display text-2xl font-bold text-slate-900 sm:text-3xl">
+                {lang === 'mr' ? 'आमचा उत्पादन कॅटलॉग पहा' : 'Browse Our Product Catalog'}
+              </h3>
+
+              {/* Sub-text */}
+              <p className="mb-8 text-sm text-slate-500 sm:text-base">
+                {lang === 'mr'
+                  ? 'सर्व खेळणी, जॅकेट्स आणि गिफ्ट आयटम्सचे फोटो पाहण्यासाठी खाली क्लिक करा'
+                  : 'Click below to view photos of all toys, jackets, and gift items with names & details'}
+              </p>
+
+              {/* CTA Button */}
+              <a
+                href={business.productCatalog}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 rounded-2xl px-8 py-4 text-base font-semibold text-white shadow-md transition hover:opacity-90 active:scale-95"
+                style={{ background: `rgb(var(--accent-rgb))` }}
+              >
+                <ExternalLink className="h-5 w-5" />
+                {lang === 'mr' ? 'उत्पादन कॅटलॉग उघडा' : 'View Product Catalog'}
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+      {/* ─────────────────────────────────────────────────────────
+          [END NEW] Product Catalog Banner
+          ───────────────────────────────────────────────────────── */}
 
       <Gallery business={business} lang={lang} />
       <VisitUs business={business} lang={lang} />
