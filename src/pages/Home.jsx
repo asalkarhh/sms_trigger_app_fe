@@ -293,7 +293,7 @@ const DEMOS = [
     tagline: 'Learn to drive safely and confidently. RTO-related services available.',
     tagline_mr: 'सुरक्षित आणि आत्मविश्वासाने गाडी चालवायला शिका. RTO संबंधित सेवा उपलब्ध.',
     accent: '#1d4ed8',
-    image: 'https://images.unsplash.com/photo-1551522435-a131bf5e4a41?q=80&w=1600&auto=format&fit=crop',
+    image: '/smmotor.jpeg'
   },
 ]
 
@@ -387,7 +387,10 @@ export default function Home() {
                 {/* Optional Background Image */}
                 {demo.image && (
                   <div className="absolute inset-0 z-0 opacity-50 transition-opacity duration-300 group-hover:opacity-70">
-                    <img src={demo.image} alt={demo.name} className="h-full w-full object-cover object-center" />
+                    <img
+                      src={demo.image}
+                      alt={demo.name}
+                      className={`h-full w-full object-cover ${demo.imagePosition || 'object-center'}`} />
                     {/* Dark gradient overlay so the white text stays readable */}
                     <div className="absolute inset-0 bg-slate-950/60 group-hover:bg-slate-950/40 transition-colors" />
                   </div>

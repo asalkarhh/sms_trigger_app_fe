@@ -92,7 +92,7 @@ export default function BusinessPage() {
   return (
     <div style={{ '--accent-rgb': accentRgb }} className="min-h-screen bg-white">
       <Navbar business={business} lang={lang} setLang={setLang} />
-      <Hero business={business} lang={lang} />
+      <Hero business={business} lang={lang} bannerPosition={business.images?.bannerPosition} />
       <QuickInfo business={business} lang={lang} />
 
       <About business={business} lang={lang} />
