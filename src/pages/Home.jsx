@@ -283,6 +283,18 @@ const DEMOS = [
     accent: '#2563eb',
     image: '/Unique-Security-Systems.jpeg',
   },
+  // 28. S.M. Motor Driving School
+  {
+    slug: 'sm-motor-driving-school',
+    name: 'S.M. Motor Driving School',
+    name_mr: 'एस.एम. मोटर ड्रायव्हिंग स्कूल',
+    category: 'Driving School',
+    category_mr: 'ड्रायव्हिंग स्कूल',
+    tagline: 'Learn to drive safely and confidently. RTO-related services available.',
+    tagline_mr: 'सुरक्षित आणि आत्मविश्वासाने गाडी चालवायला शिका. RTO संबंधित सेवा उपलब्ध.',
+    accent: '#1d4ed8',
+    image: 'https://images.unsplash.com/photo-1551522435-a131bf5e4a41?q=80&w=1600&auto=format&fit=crop',
+  },
 ]
 
 export default function Home() {

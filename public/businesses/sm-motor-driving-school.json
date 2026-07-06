@@ -1,0 +1,78 @@
+{
+  "slug": "sm-motor-driving-school",
+
+  "businessName": "S.M. Motor Driving School",
+  "businessName_mr": "एस.एम. मोटर ड्रायव्हिंग स्कूल",
+
+  "ownerName": "Sagar Sunil Pawar",
+  "ownerName_mr": "सागर सुनील पवार",
+
+  "category": "Driving School",
+  "category_mr": "ड्रायव्हिंग स्कूल",
+
+  "tagline": "Learn to drive safely and confidently. RTO-related services available.",
+  "tagline_mr": "सुरक्षित आणि आत्मविश्वासाने गाडी चालवायला शिका. RTO संबंधित सेवा उपलब्ध.",
+
+  "description": "S.M. Motor Driving School in Vaduj offers comprehensive driving training for cars. We also provide services like permanent driving licenses, vehicle passing, insurance, and PUC.",
+  "description_mr": "एस.एम. मोटर ड्रायव्हिंग स्कूल, वडूज येथे कार चालवण्याचे शास्त्रशुद्ध प्रशिक्षण दिले जाते. तसेच पक्के लायसन, वाहन पासिंग, इन्शुरन्स, आणि PUC संबंधित सेवा पुरवल्या जातात.",
+
+  "phone": "+919075956505",
+  "alternatePhone": "+918625870436",
+  "whatsapp": "+919075956505",
+
+  "email": "",
+
+  "address": "Pusegaon Road, In front of Inamdar Hospital, Vaduj, Satara, Maharashtra 415506",
+  "address_mr": "पुसेगाव रोड, इनामदार हॉस्पिटल समोर, वडूज, सातारा, महाराष्ट्र ४१५५०६",
+
+  "mapLink": "https://maps.app.goo.gl/3RWbkgGHi8cbWU8y8",
+
+  "hours": {
+    "mon": "9:00 AM - 7:00 PM",
+    "tue": "9:00 AM - 7:00 PM",
+    "wed": "9:00 AM - 7:00 PM",
+    "thu": "9:00 AM - 7:00 PM",
+    "fri": "9:00 AM - 7:00 PM",
+    "sat": "9:00 AM - 7:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "Driving Lessons (Car)",
+    "Permanent Driving License",
+    "Vehicle Passing (RTO)",
+    "Vehicle Insurance",
+    "PUC (Pollution Under Control)",
+    "License Renewal"
+  ],
+
+  "services_mr": [
+    "ड्रायव्हिंग प्रशिक्षण (कार)",
+    "पक्के लायसन",
+    "वाहन पासिंग",
+    "वाहन विमा (Insurance)",
+    "पीयूसी (PUC)",
+    "लायसन्स नूतनीकरण"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "payment": {
+    "upiId": "",
+    "showPayButton": false
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/1d4ed8/ffffff?text=SM",
+    "banner": "https://images.unsplash.com/photo-1551522435-a131bf5e4a41?q=80&w=1600&auto=format&fit=crop"
+  },
+
+  "theme": {
+    "accentColor": "#1d4ed8"
+  }
+}
