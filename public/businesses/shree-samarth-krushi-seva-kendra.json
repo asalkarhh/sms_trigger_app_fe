@@ -1,0 +1,65 @@
+{
+  "slug": "shree-samarth-krushi-seva-kendra",
+  "businessName": "Shree Samarth Krushi Seva Kendra",
+  "businessName_mr": "श्री समर्थ कृषी सेवा केंद्र",
+  "ownerName": "Vyankat Tukaram Jagtap",
+  "ownerName_mr": "व्यंकट तुकाराम जगताप",
+  "category": "Agriculture Store",
+  "category_mr": "कृषी सेवा केंद्र",
+  "tagline": "All agricultural equipment is available",
+  "tagline_mr": "शेती उपयोगी सर्व साहित्य मिळेल",
+  "description": "We are sellers of 💧NETAFIM💧 drip irrigation, mini sprinklers, kisan sprinklers, Kothari PVC pipes, Samudra motor pumps, as well as agricultural spray pumps, charging pumps, and battery pumps.",
+  "description_mr": "💧NETAFIM 💧 ठिबक सिंचन , मिनी स्प्रिंकलर, किसान स्प्रिंकलर . कोठारी पि.व्ही.सी पाईप , समुद्रा मोटार पंप तसेच शेती उपयोगी स्प्रे पंप, चार्जिंग पंप , बॅटरी पंप सर्व साहित्याचे विक्रेते.",
+
+  "phone": "+918788548410",
+  "alternatePhone": "+919420827495",
+  "whatsapp": "+918788548410",
+  "email": "",
+
+  "address": "Tehsil Road, Near Jio Office, Lohara, Tal. Lohara, Dist. Dharashiv",
+  "address_mr": "तहसील रोड जिओ ऑफीसा जवळ लोहारा ता लोहारा जिल्हा धाराशिव",
+  "mapLink": "https://maps.app.goo.gl/4hUA3MZ1f3CrVD1b9",
+
+  "hours": {
+    "mon": "9:00 AM - 8:00 PM",
+    "tue": "9:00 AM - 8:00 PM",
+    "wed": "9:00 AM - 8:00 PM",
+    "thu": "9:00 AM - 8:00 PM",
+    "fri": "9:00 AM - 8:00 PM",
+    "sat": "9:00 AM - 8:00 PM",
+    "sun": "Closed"
+  },
+
+  "services": [
+    "NETAFIM Drip Irrigation",
+    "Mini & Kisan Sprinklers",
+    "Kothari PVC Pipes",
+    "Samudra Motor Pumps",
+    "Agricultural Spray Pumps",
+    "Charging & Battery Pumps"
+  ],
+  "services_mr": [
+    "नेटॅफिम ठिबक सिंचन",
+    "मिनी आणि किसान स्प्रिंकलर",
+    "कोठारी पीव्हीसी पाईप",
+    "समुद्रा मोटार पंप",
+    "शेती उपयोगी स्प्रे पंप",
+    "चार्जिंग आणि बॅटरी पंप"
+  ],
+
+  "social": {
+    "website": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": ""
+  },
+
+  "images": {
+    "logo": "https://placehold.co/240x240/22c55e/white?text=SK",
+    "banner": "/ShreeSamarthKrushiSevaKendra.jpeg"
+  },
+
+  "theme": {
+    "accentColor": "#22c55e"
+  }
+}

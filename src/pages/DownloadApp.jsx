@@ -144,7 +144,7 @@ export default function DownloadApp() {
               Privacy Policy
             </Link>
             <a
-              href="mailto:asalkartechworks@gmail.com"
+              href="mailto:info@asalkartechworks.com"
               className="font-medium text-white/60 transition hover:text-white"
             >
               Contact

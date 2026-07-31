@@ -295,6 +295,16 @@ const DEMOS = [
     accent: '#1d4ed8',
     image: '/smmotor.jpeg'
   },
+  // 29. Shree Samarth Krushi Seva Kendra
+  {
+    slug: 'shree-samarth-krushi-seva-kendra',
+    name: 'Shree Samarth Krushi Seva Kendra',
+    name_mr: 'श्री समर्थ कृषी सेवा केंद्र',
+    category: 'Agriculture Store',
+    category_mr: 'कृषी सेवा केंद्र',
+    accent: '#22c55e',
+    image: '/ShreeSamarthKrushiSevaKendra.jpeg',
+  },
 ]
 
 export default function Home() {
@@ -358,10 +368,10 @@ export default function Home() {
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-lg text-white/65">
               {lang === 'mr' ? (
-                <>प्रत्येक ग्राहकाला <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span> वर एक सुंदर, मोबाईल-रेडी लँडिंग पेज मिळते — जे थेट ऑटो-रिप्लाय SMS मधून उघडते.</>
+                <>प्रत्येक ग्राहकाला <span className="font-semibold text-white">smartsms.in/&#123;slug&#125;</span> वर एक सुंदर, मोबाईल-रेडी लँडिंग पेज मिळते — जे थेट ऑटो-रिप्लाय SMS मधून उघडते.</>
               ) : (
                 <>Every customer gets a beautiful, mobile-ready landing page at{' '}
-                <span className="font-semibold text-white">yourdomain.com/&#123;slug&#125;</span>
+                <span className="font-semibold text-white">smartsms.in/&#123;slug&#125;</span>
                 {' '}— opened straight from an auto-reply SMS.</>
               )}
             </p>
@@ -447,9 +457,9 @@ export default function Home() {
                 Privacy Policy
               </Link>
             </div>
-            <a href="mailto:asalkartechworks@gmail.com" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
+            <a href="mailto:info@asalkartechworks.com" className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition">
               <Mail className="h-3.5 w-3.5" />
-              asalkartechworks@gmail.com
+              info@asalkartechworks.com
             </a>
           </div>
         </div>

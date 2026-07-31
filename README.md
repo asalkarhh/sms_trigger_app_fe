@@ -1,7 +1,7 @@
 # Smart SMS — Business Pages
 
 A static React site that serves a **digital business card** for each customer at a
-clean URL like `yourdomain.com/asalkar-healthy-hub`. Pages are opened when someone taps a
+clean URL like `smartsms.in/asalkar-healthy-hub`. Pages are opened when someone taps a
 link in an auto-reply SMS sent by the **Smart SMS** Android app.
 
 **One JSON file per business.** Adding a customer means dropping in one JSON file and
@@ -41,7 +41,7 @@ npm run preview    # preview the production build locally
 
 ## How it works
 
-1. The browser visits `yourdomain.com/{slug}`.
+1. The browser visits `smartsms.in/{slug}`.
 2. React reads the `{slug}` from the URL.
 3. It fetches `/businesses/{slug}.json` from the `public` folder.
 4. It renders the full business page from that JSON.
@@ -104,7 +104,7 @@ npm run build
 ```
 
 Deploy the generated `dist/` folder to your static host (Netlify, Vercel, etc.).
-The new page is live at `yourdomain.com/{slug}`.
+The new page is live at `smartsms.in/{slug}`.
 
 > **Deep-link routing:** because URLs like `/gupta-bakery` are handled by the React
 > router, the host must serve `index.html` for all paths. This repo already includes

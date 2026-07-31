@@ -206,11 +206,11 @@ export default function PrivacyPolicy() {
                 <div className="space-y-2 text-white/80">
                   <p className="font-semibold text-white">Asalkar Techworks Pvt Ltd</p>
                   <a
-                    href="mailto:asalkartechworks@gmail.com"
+                    href="mailto:info@asalkartechworks.com"
                     className="inline-flex items-center gap-2 text-indigo-200 transition hover:text-white"
                   >
                     <Mail className="h-4 w-4" />
-                    asalkartechworks@gmail.com
+                    info@asalkartechworks.com
                   </a>
                   <p>
                     <a href="https://www.smartsms.in" className="text-indigo-200 transition hover:text-white">
