@@ -305,6 +305,16 @@ const DEMOS = [
     accent: '#22c55e',
     image: '/ShreeSamarthKrushiSevaKendra.jpeg',
   },
+  // 30. Sonam Masale
+  {
+    slug: 'sonam-masale',
+    name: 'Sonam Masale & Dryfruits',
+    name_mr: 'सोनम मसाले & ड्रायफ्रूट्स',
+    category: 'Spices & Dryfruits',
+    category_mr: 'मसाले आणि ड्रायफ्रूट्स',
+    accent: '#f59e0b',
+    image: '/sonammasale.jpg',
+  },
 ]
 
 export default function Home() {

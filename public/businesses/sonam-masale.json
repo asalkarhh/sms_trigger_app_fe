@@ -1,0 +1,60 @@
+{
+  "slug": "sonam-masale",
+  "businessName": "Sonam Masale & Dryfruits",
+  "businessName_mr": "सोनम मसाले & ड्रायफ्रूट्स",
+  "ownerName": "Sachin M. Takel",
+  "ownerName_mr": "सचिन एम. ताकेल",
+  "category": "Spices & Dryfruits",
+  "category_mr": "मसाले आणि ड्रायफ्रूट्स",
+  "tagline": "Quality spices and masala products",
+  "tagline_mr": "उत्कृष्ट दर्जाचे मसाले आणि उत्पादने",
+  "description": "Sonam Masale is a food-products business specializing in quality spices and masala products, serving customers through retail and distribution channels. The brand focuses on providing flavorful, quality masalas for everyday Indian cooking and expanding its reach through local retailers and markets.",
+  "description_mr": "सोनम मसाले हा दर्जेदार मसाले आणि मसाला उत्पादनांमध्ये खास असलेला खाद्य-उत्पादन व्यवसाय आहे, जो रिटेल आणि वितरण चॅनेलद्वारे ग्राहकांना सेवा देतो. हा ब्रँड दररोजच्या भारतीय स्वयंपाकासाठी चविष्ट, दर्जेदार मसाले पुरविण्यावर आणि स्थानिक किरकोळ विक्रेते आणि बाजारपेठांद्वारे त्याची पोहोच वाढवण्यावर भर देतो.",
+  "phone": "+919270050091",
+  "alternatePhone": "+919922630877",
+  "whatsapp": "+919922630877",
+  "email": "",
+  "address": "Mayani road, opp Jay bhavani medical, Nagar palika, Vita, Maharashtra 415311",
+  "address_mr": "मायाणी रोड, जय भवानी मेडिकलच्या समोर, नगरपालिका, विटा, महाराष्ट्र 415311",
+  "mapLink": "https://maps.app.goo.gl/JzBEBhUo7Xki8hFQ6",
+  "hideVisitUs": false,
+  "hours": {
+    "mon": "9:00 AM - 9:00 PM",
+    "tue": "9:00 AM - 9:00 PM",
+    "wed": "9:00 AM - 9:00 PM",
+    "thu": "9:00 AM - 9:00 PM",
+    "fri": "9:00 AM - 9:00 PM",
+    "sat": "9:00 AM - 9:00 PM",
+    "sun": "9:00 AM - 9:00 PM"
+  },
+  "services": [
+    "Quality Spices",
+    "Masala Products",
+    "Dryfruits",
+    "Retail & Distribution",
+    "Special Mirchi Masala",
+    "Special Garam Masala"
+  ],
+  "services_mr": [
+    "उत्कृष्ट मसाले",
+    "मसाला उत्पादने",
+    "ड्रायफ्रूट्स",
+    "रिटेल आणि वितरण",
+    "स्पेशल मिरची मसाला",
+    "स्पेशल गरम मसाला"
+  ],
+  "showInstagramBanner": false,
+  "social": {
+    "instagram": "https://www.instagram.com/sonam_masale_61/",
+    "instagramText": "Sonam Masale",
+    "instagramText_mr": "सोनम मसाले"
+  },
+  "images": {
+    "logo": "/sonammasale.jpg",
+    "banner": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=1600&auto=format&fit=crop"
+  },
+  "theme": {
+    "accentColor": "#f59e0b"
+  }
+}
+
